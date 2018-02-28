@@ -3,10 +3,12 @@ import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
+import { HttpClient, HttpErrorResponse, HttpClientModule } from '@angular/common/http';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { YelpServiceProvider } from '../providers/yelp-service/yelp-service';
+import { CusineServiceProvider } from '../providers/cusine-service/cusine-service';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,8 @@ import { YelpServiceProvider } from '../providers/yelp-service/yelp-service';
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp),
+	HttpClientModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -26,7 +29,8 @@ import { YelpServiceProvider } from '../providers/yelp-service/yelp-service';
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    YelpServiceProvider
+    YelpServiceProvider,
+    CusineServiceProvider
   ]
 })
 export class AppModule {}
