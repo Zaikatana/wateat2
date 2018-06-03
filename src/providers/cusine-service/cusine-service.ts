@@ -22,15 +22,16 @@ export class CusineServiceProvider {
 		
 	}
 	
-	getCuisines(): Observable<ICuisine[]>{
-		return this.http.get<ICuisine[]>(this.cuisineJSON)
-				.do(data => console.log("Cuisines Loaded"))
-				.catch(this.handleError);
-	}
-	
 	private handleError(err: HttpErrorResponse){
 		console.log(err.message);
 		return Observable.throw(err.message);
 	}
 	
+	getResults(keyword:string){
+		return this.http.get<ICuisine[]>(this.cuisineJSON)
+				.map( result=>{
+					return (result as any).filter(item => item.title.toLowerCase().startsWith(keyword.toLowerCase()));
+				})
+				.catch(this.handleError);
+	}
 }

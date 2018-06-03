@@ -4,6 +4,9 @@ import { FormBuilder, FormGroup } from '@angular/forms';
 
 import { ICuisine } from '../../types/types';
 import { CusineServiceProvider } from '../../providers/cusine-service/cusine-service';
+import { YelpServiceProvider } from '../../providers/yelp-service/yelp-service';
+
+import { Geolocation } from '@ionic-native/geolocation';
 
 @Component({
 	selector: 'page-home',
@@ -11,58 +14,66 @@ import { CusineServiceProvider } from '../../providers/cusine-service/cusine-ser
 })
 
 export class HomePage {
-	search: FormGroup;
+	searchForm: FormGroup;
 	cuisine: string;
+	cuisines: any[];
+	displayCuisines: boolean = false;
 	radius: number;
+	results: any;
+	latitude: number;
+	longitude: number;
 	isSearch: boolean = false;
-	cuisineList: ICuisine[];
-	filteredList: ICuisine[];
 	
-	_query:string
-	get query(): string {
-        return this._query;
-    }
-    set query(value: string) {
-        this._query = value;
-        this.filteredList = this.query ? this.filterCuisines(this.query) : this.cuisineList;
-    }
 	
 	constructor(public navCtrl: NavController,
 				public formBuilder: FormBuilder,
-				private csp: CusineServiceProvider) {
-		this.search = formBuilder.group({
+				private csp: CusineServiceProvider,
+				private ysp: YelpServiceProvider,
+				private geolocation: Geolocation) {
+		this.searchForm = formBuilder.group({
 			cuisine: [''],
 			radius: [''],
+		});
+		this.geolocation.getCurrentPosition().then((resp) => {
+			this.latitude = resp.coords.latitude;
+			this.longitude = resp.coords.longitude;
+			console.log(this.latitude);
+			console.log(this.longitude);
 		});
 	}
 
 	ionViewDidLoad(){
-		console.log("Executing command on startup");
-		this.csp.getCuisines()
-				.subscribe(c => {
-					console.log("Cuisine List loaded");
-					this.cuisineList = c;
-					this.filteredList = this.cuisineList;
-				},
-				error => console.log(error));
 		
 	}
 	
 	searchRestaurants(){
 		console.log("Searching For Restaurants");
-		let cuisine = this.search.controls['cuisine'].value;
-		let radius = this.search.controls['radius'].value;
+		let cuisine = this.searchForm.controls['cuisine'].value;
+		let radius = this.searchForm.controls['radius'].value;
 		if(!radius){
 			radius = 100;
 		}
 		console.log(radius);
 		console.log(cuisine);
 		this.isSearch = true;
+		this.ysp.getResults().subscribe( data => {console.log(data)} );
 	}
 	
-	filterCuisines(query:string): ICuisine[]{
-		query = query.toLocaleLowerCase();
-        return this.cuisineList.filter((c: ICuisine) =>
-              c.title.toLocaleLowerCase().indexOf(query) !== -1);
+	lookupCuisine(event: any){
+		this.cuisines = null;
+		let keyword = this.searchForm.value.cuisine;
+		if(keyword.length !== 0){
+			this.displayCuisines = true;
+			this.csp.getResults(keyword).subscribe( data => { this.cuisines = data; });
+		}
+		else{
+			this.displayCuisines = false;
+		}
 	}
+	
+	setCuisine(cuisine: any){
+		this.searchForm.controls.cuisine.setValue(cuisine);
+		this.displayCuisines = false;
+	}
+
 }
