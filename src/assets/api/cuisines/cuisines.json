@@ -1,4166 +1,2365 @@
 [
-    {
-        "alias": "abruzzese",
-        "title": "Abruzzese",
-        "parents": [
-            "italian"
-        ],
-        "country_whitelist": [
-            "IT"
-        ]
-    },
-    {
-        "alias": "acaibowls",
-        "title": "Acai Bowls",
-        "parents": [
-            "food"
-        ],
-        "country_blacklist": [
-            "PL",
-            "MX",
-            "IT",
-            "CL",
-            "TR",
-            "AR"
-        ]
-    },
-    {
-        "alias": "afghani",
-        "title": "Afghan",
-        "parents": [
-            "restaurants"
-        ],
-        "country_blacklist": [
-            "TR",
-            "MX"
-        ]
-    },
-    {
-        "alias": "african",
-        "title": "African",
-        "parents": [
-            "restaurants"
-        ],
-        "country_blacklist": [
-            "TR"
-        ]
-    },
-    {
-        "alias": "alentejo",
-        "title": "Alentejo",
-        "parents": [
-            "portuguese"
-        ],
-        "country_whitelist": [
-            "PT"
-        ]
-    },
-    {
-        "alias": "algarve",
-        "title": "Algarve",
-        "parents": [
-            "portuguese"
-        ],
-        "country_whitelist": [
-            "PT"
-        ]
-    },
-    {
-        "alias": "alsatian",
-        "title": "Alsatian",
-        "parents": [
-            "french"
-        ],
-        "country_whitelist": [
-            "DE",
-            "FR"
-        ]
-    },
-    {
-        "alias": "altoatesine",
-        "title": "Altoatesine",
-        "parents": [
-            "italian"
-        ],
-        "country_whitelist": [
-            "IT"
-        ]
-    },
-    {
-        "alias": "andalusian",
-        "title": "Andalusian",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "IT",
-            "ES"
-        ]
-    },
-    {
-        "alias": "apulian",
-        "title": "Apulian",
-        "parents": [
-            "italian"
-        ],
-        "country_whitelist": [
-            "IT",
-            "FR"
-        ]
-    },
-    {
-        "alias": "arabian",
-        "title": "Arabian",
-        "parents": [
-            "restaurants"
-        ],
-        "country_blacklist": [
-            "DK"
-        ]
-    },
-    {
-        "alias": "arabpizza",
-        "title": "Arab Pizza",
-        "parents": [
-            "arabian"
-        ],
-        "country_whitelist": [
-            "BR"
-        ]
-    },
-    {
-        "alias": "argentine",
-        "title": "Argentine",
-        "parents": [
-            "restaurants"
-        ],
-        "country_blacklist": [
-            "FI"
-        ]
-    },
-    {
-        "alias": "armenian",
-        "title": "Armenian",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "GB",
-            "CZ",
-            "PL",
-            "IT",
-            "US",
-            "AR",
-            "FR",
-            "BE",
-            "ES",
-            "TR"
-        ]
-    },
-    {
-        "alias": "arroceria_paella",
-        "title": "Arroceria / Paella",
-        "parents": [
-            "spanish"
-        ],
-        "country_whitelist": [
-            "ES"
-        ]
-    },
-    {
-        "alias": "asianfusion",
-        "title": "Asian Fusion",
-        "parents": [
-            "restaurants"
-        ]
-    },
-    {
-        "alias": "asturian",
-        "title": "Asturian",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "ES"
-        ]
-    },
-    {
-        "alias": "australian",
-        "title": "Australian",
-        "parents": [
-            "restaurants"
-        ]
-    },
-    {
-        "alias": "austrian",
-        "title": "Austrian",
-        "parents": [
-            "restaurants"
-        ],
-        "country_blacklist": [
-            "DK",
-            "ES"
-        ]
-    },
-    {
-        "alias": "azores",
-        "title": "Azores",
-        "parents": [
-            "portuguese"
-        ],
-        "country_whitelist": [
-            "PT"
-        ]
-    },
-    {
-        "alias": "baden",
-        "title": "Baden",
-        "parents": [
-            "german"
-        ],
-        "country_whitelist": [
-            "DE"
-        ]
-    },
-    {
-        "alias": "bagels",
-        "title": "Bagels",
-        "parents": [
-            "food"
-        ],
-        "country_blacklist": [
-            "AU",
-            "ES"
-        ]
-    },
-    {
-        "alias": "baguettes",
-        "title": "Baguettes",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "CZ",
-            "NO",
-            "MX",
-            "IT",
-            "SE",
-            "DE",
-            "PT",
-            "TR"
-        ]
-    },
-    {
-        "alias": "bakeries",
-        "title": "Bakeries",
-        "parents": [
-            "food"
-        ]
-    },
-    {
-        "alias": "bangladeshi",
-        "title": "Bangladeshi",
-        "parents": [
-            "restaurants"
-        ],
-        "country_blacklist": [
-            "PT",
-            "MX",
-            "DK",
-            "ES",
-            "TR"
-        ]
-    },
-    {
-        "alias": "bars",
-        "title": "Bars",
-        "parents": [
-            "nightlife"
-        ]
-    },
-    {
-        "alias": "basque",
-        "title": "Basque",
-        "parents": [
-            "restaurants"
-        ],
-        "country_blacklist": [
-            "CZ",
-            "PT",
-            "SG",
-            "TR",
-            "DK",
-            "AU"
-        ]
-    },
-    {
-        "alias": "bavarian",
-        "title": "Bavarian",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "DE",
-            "AT",
-            "CH"
-        ]
-    },
-    {
-        "alias": "bbq",
-        "title": "Barbeque",
-        "parents": [
-            "restaurants"
-        ],
-        "country_blacklist": [
-            "AU",
-            "BR"
-        ]
-    },
-    {
-        "alias": "beer_and_wine",
-        "title": "Beer, Wine & Spirits",
-        "parents": [
-            "food"
-        ]
-    },
-    {
-        "alias": "beerbar",
-        "title": "Beer Bar",
-        "parents": [
-            "bars"
-        ]
-    },
-    {
-        "alias": "beergarden",
-        "title": "Beer Garden",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "DE",
-            "CZ",
-            "AT",
-            "CH"
-        ]
-    },
-    {
-        "alias": "beergardens",
-        "title": "Beer Gardens",
-        "parents": [
-            "nightlife"
-        ],
-        "country_whitelist": [
-            "GB",
-            "CZ",
-            "NO",
-            "PL",
-            "MX",
-            "IT",
-            "SE",
-            "US",
-            "AU",
-            "FR",
-            "DK",
-            "JP",
-            "IE"
-        ]
-    },
-    {
-        "alias": "beerhall",
-        "title": "Beer Hall",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "DE",
-            "AT",
-            "CH"
-        ]
-    },
-    {
-        "alias": "beira",
-        "title": "Beira",
-        "parents": [
-            "portuguese"
-        ],
-        "country_whitelist": [
-            "PT"
-        ]
-    },
-    {
-        "alias": "beisl",
-        "title": "Beisl",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "AT"
-        ]
-    },
-    {
-        "alias": "belgian",
-        "title": "Belgian",
-        "parents": [
-            "restaurants"
-        ]
-    },
-    {
-        "alias": "bento",
-        "title": "Bento",
-        "parents": [
-            "food"
-        ],
-        "country_whitelist": [
-            "JP"
-        ]
-    },
-    {
-        "alias": "berrichon",
-        "title": "Berrichon",
-        "parents": [
-            "french"
-        ],
-        "country_whitelist": [
-            "FR"
-        ]
-    },
-    {
-        "alias": "beverage_stores",
-        "title": "Beverage Store",
-        "parents": [
-            "food"
-        ],
-        "country_whitelist": [
-            "IT",
-            "CL",
-            "NL",
-            "US",
-            "AU",
-            "AT",
-            "DE",
-            "PT",
-            "BE",
-            "CH",
-            "ES",
-            "TR"
-        ]
-    },
-    {
-        "alias": "bistros",
-        "title": "Bistros",
-        "parents": [
-            "restaurants"
-        ],
-        "country_blacklist": [
-            "US"
-        ]
-    },
-    {
-        "alias": "blacksea",
-        "title": "Black Sea",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "TR"
-        ]
-    },
-    {
-        "alias": "blowfish",
-        "title": "Blowfish",
-        "parents": [
-            "japanese"
-        ],
-        "country_whitelist": [
-            "JP"
-        ]
-    },
-    {
-        "alias": "bourguignon",
-        "title": "Bourguignon",
-        "parents": [
-            "french"
-        ],
-        "country_whitelist": [
-            "FR"
-        ]
-    },
-    {
-        "alias": "brasseries",
-        "title": "Brasseries",
-        "parents": [
-            "restaurants"
-        ],
-        "country_blacklist": [
-            "AR",
-            "MX"
-        ]
-    },
-    {
-        "alias": "brazilian",
-        "title": "Brazilian",
-        "parents": [
-            "restaurants"
-        ]
-    },
-    {
-        "alias": "brazilianempanadas",
-        "title": "Brazilian Empanadas",
-        "parents": [
-            "brazilian"
-        ],
-        "country_whitelist": [
-            "BR"
-        ]
-    },
-    {
-        "alias": "breakfast_brunch",
-        "title": "Breakfast & Brunch",
-        "parents": [
-            "restaurants"
-        ]
-    },
-    {
-        "alias": "breweries",
-        "title": "Breweries",
-        "parents": [
-            "food"
-        ]
-    },
-    {
-        "alias": "british",
-        "title": "British",
-        "parents": [
-            "restaurants"
-        ],
-        "country_blacklist": [
-            "FI"
-        ]
-    },
-    {
-        "alias": "buffets",
-        "title": "Buffets",
-        "parents": [
-            "restaurants"
-        ]
-    },
-    {
-        "alias": "bulgarian",
-        "title": "Bulgarian",
-        "parents": [
-            "restaurants"
-        ],
-        "country_blacklist": [
-            "NO",
-            "SG",
-            "NL",
-            "CA",
-            "BR",
-            "DK",
-            "TR",
-            "NZ"
-        ]
-    },
-    {
-        "alias": "burgers",
-        "title": "Burgers",
-        "parents": [
-            "restaurants"
-        ]
-    },
-    {
-        "alias": "burmese",
-        "title": "Burmese",
-        "parents": [
-            "restaurants"
-        ],
-        "country_blacklist": [
-            "CZ",
-            "PT",
-            "DK",
-            "ES",
-            "FI",
-            "TR"
-        ]
-    },
-    {
-        "alias": "cafes",
-        "title": "Cafes",
-        "parents": [
-            "restaurants"
-        ],
-        "country_blacklist": [
-            "AR",
-            "MX",
-            "ES",
-            "FI"
-        ]
-    },
-    {
-        "alias": "cafeteria",
-        "title": "Cafeteria",
-        "parents": [
-            "restaurants"
-        ],
-        "country_blacklist": [
-            "CA",
-            "IE",
-            "SG",
-            "BR",
-            "SE",
-            "FR",
-            "NZ"
-        ]
-    },
-    {
-        "alias": "cajun",
-        "title": "Cajun/Creole",
-        "parents": [
-            "restaurants"
-        ],
-        "country_blacklist": [
-            "AU",
-            "ES",
-            "PT",
-            "SG"
-        ]
-    },
-    {
-        "alias": "cakeshop",
-        "title": "Patisserie/Cake Shop",
-        "parents": [
-            "food"
-        ]
-    },
-    {
-        "alias": "calabrian",
-        "title": "Calabrian",
-        "parents": [
-            "italian"
-        ],
-        "country_whitelist": [
-            "US",
-            "IT",
-            "FR"
-        ]
-    },
-    {
-        "alias": "cambodian",
-        "title": "Cambodian",
-        "parents": [
-            "restaurants"
-        ],
-        "country_blacklist": [
-            "CZ",
-            "PT",
-            "DK",
-            "ES",
-            "FI",
-            "TR"
-        ]
-    },
-    {
-        "alias": "canteen",
-        "title": "Canteen",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "CZ",
-            "NO",
-            "PL",
-            "IT",
-            "NL",
-            "FI",
-            "AT",
-            "DE",
-            "BE",
-            "DK",
-            "CH",
-            "JP"
-        ]
-    },
-    {
-        "alias": "cantonese",
-        "title": "Cantonese",
-        "parents": [
-            "chinese"
-        ],
-        "country_whitelist": [
-            "GB",
-            "MY",
-            "TW",
-            "HK",
-            "SG",
-            "IT",
-            "NL",
-            "SE",
-            "US",
-            "AU",
-            "AR",
-            "FR",
-            "CA",
-            "BE",
-            "JP",
-            "NZ"
-        ]
-    },
-    {
-        "alias": "caribbean",
-        "title": "Caribbean",
-        "parents": [
-            "restaurants"
-        ],
-        "country_blacklist": [
-            "TR",
-            "PT",
-            "FI"
-        ]
-    },
-    {
-        "alias": "catalan",
-        "title": "Catalan",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "MX",
-            "IT",
-            "CL",
-            "US",
-            "AR",
-            "FR",
-            "PT",
-            "ES",
-            "TR"
-        ]
-    },
-    {
-        "alias": "centralbrazilian",
-        "title": "Central Brazilian",
-        "parents": [
-            "brazilian"
-        ],
-        "country_whitelist": [
-            "BR"
-        ]
-    },
-    {
-        "alias": "cheekufta",
-        "title": "Chee Kufta",
-        "parents": [
-            "turkish"
-        ],
-        "country_whitelist": [
-            "TR",
-            "DE"
-        ]
-    },
-    {
-        "alias": "cheese",
-        "title": "Cheese Shops",
-        "parents": [
-            "gourmet"
-        ]
-    },
-    {
-        "alias": "cheesesteaks",
-        "title": "Cheesesteaks",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "GB",
-            "CA",
-            "PL",
-            "NL",
-            "US",
-            "AU",
-            "IE"
-        ]
-    },
-    {
-        "alias": "chicken_wings",
-        "title": "Chicken Wings",
-        "parents": [
-            "restaurants"
-        ],
-        "country_blacklist": [
-            "NO",
-            "IT",
-            "CL",
-            "NL",
-            "FI",
-            "FR",
-            "PT",
-            "BE",
-            "DK",
-            "CH",
-            "ES",
-            "JP"
-        ]
-    },
-    {
-        "alias": "chickenshop",
-        "title": "Chicken Shop",
-        "parents": [
-            "restaurants"
-        ],
-        "country_blacklist": [
-            "CZ"
-        ]
-    },
-    {
-        "alias": "chilean",
-        "title": "Chilean",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "BR",
-            "FI",
-            "FR",
-            "CL"
-        ]
-    },
-    {
-        "alias": "chimneycakes",
-        "title": "Chimney Cakes",
-        "parents": [
-            "food"
-        ],
-        "country_whitelist": [
-            "US",
-            "CZ",
-            "PL",
-            "FR"
-        ]
-    },
-    {
-        "alias": "chinese",
-        "title": "Chinese",
-        "parents": [
-            "restaurants"
-        ]
-    },
-    {
-        "alias": "chocolate",
-        "title": "Chocolatiers & Shops",
-        "parents": [
-            "gourmet"
-        ]
-    },
-    {
-        "alias": "choirs",
-        "title": "Choirs",
-        "parents": [
-            "arts"
-        ],
-        "country_blacklist": [
-            "CZ",
-            "PL",
-            "SG",
-            "NL",
-            "US",
-            "CA",
-            "BE",
-            "BR",
-            "NZ"
-        ]
-    },
-    {
-        "alias": "churros",
-        "title": "Churros",
-        "parents": [
-            "food"
-        ],
-        "country_whitelist": [
-            "PT",
-            "MX",
-            "CL",
-            "BR",
-            "ES",
-            "AR"
-        ]
-    },
-    {
-        "alias": "cideries",
-        "title": "Cideries",
-        "parents": [
-            "food"
-        ],
-        "country_blacklist": [
-            "NO",
-            "IT",
-            "NL",
-            "FR",
-            "BE",
-            "DK",
-            "JP",
-            "TR"
-        ]
-    },
-    {
-        "alias": "cocktailbars",
-        "title": "Cocktail Bars",
-        "parents": [
-            "bars"
-        ]
-    },
-    {
-        "alias": "coffee",
-        "title": "Coffee & Tea",
-        "parents": [
-            "food"
-        ]
-    },
-    {
-        "alias": "coffeeroasteries",
-        "title": "Coffee Roasteries",
-        "parents": [
-            "food"
-        ]
-    },
-    {
-        "alias": "coffeeshops",
-        "title": "Coffeeshops",
-        "parents": [
-            "nightlife"
-        ],
-        "country_whitelist": [
-            "NL",
-            "PT"
-        ]
-    },
-    {
-        "alias": "colombian",
-        "title": "Colombian",
-        "parents": [
-            "latin"
-        ],
-        "country_whitelist": [
-            "MX",
-            "CL",
-            "US",
-            "FI",
-            "AR",
-            "FR",
-            "CA",
-            "BE",
-            "ES"
-        ]
-    },
-    {
-        "alias": "comfortfood",
-        "title": "Comfort Food",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "CA",
-            "MX",
-            "CL",
-            "US",
-            "FI",
-            "AR",
-            "JP"
-        ]
-    },
-    {
-        "alias": "congee",
-        "title": "Congee",
-        "parents": [
-            "chinese"
-        ],
-        "country_whitelist": [
-            "TW",
-            "HK",
-            "MY",
-            "SG"
-        ]
-    },
-    {
-        "alias": "conveyorsushi",
-        "title": "Conveyor Belt Sushi",
-        "parents": [
-            "japanese"
-        ],
-        "country_whitelist": [
-            "PL",
-            "SG",
-            "IT",
-            "NL",
-            "SE",
-            "US",
-            "AT",
-            "TW",
-            "DE",
-            "HK",
-            "BE",
-            "CH",
-            "JP"
-        ]
-    },
-    {
-        "alias": "corsican",
-        "title": "Corsican",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "BE",
-            "FR"
-        ]
-    },
-    {
-        "alias": "creperies",
-        "title": "Creperies",
-        "parents": [
-            "restaurants"
-        ]
-    },
-    {
-        "alias": "cuban",
-        "title": "Cuban",
-        "parents": [
-            "restaurants"
-        ],
-        "country_blacklist": [
-            "TR",
-            "DK",
-            "SG"
-        ]
-    },
-    {
-        "alias": "cucinacampana",
-        "title": "Cucina campana",
-        "parents": [
-            "italian"
-        ],
-        "country_whitelist": [
-            "IT"
-        ]
-    },
-    {
-        "alias": "currysausage",
-        "title": "Curry Sausage",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "DE",
-            "AT",
-            "CH"
-        ]
-    },
-    {
-        "alias": "customcakes",
-        "title": "Custom Cakes",
-        "parents": [
-            "food"
-        ],
-        "country_blacklist": [
-            "DE",
-            "AT",
-            "CH",
-            "FR"
-        ]
-    },
-    {
-        "alias": "cypriot",
-        "title": "Cypriot",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "DE",
-            "AT",
-            "CH"
-        ]
-    },
-    {
-        "alias": "czech",
-        "title": "Czech",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "GB",
-            "CZ",
-            "NO",
-            "PL",
-            "IT",
-            "SE",
-            "US",
-            "FI",
-            "AU",
-            "FR",
-            "DE",
-            "CA",
-            "BE",
-            "DK",
-            "IE"
-        ]
-    },
-    {
-        "alias": "czechslovakian",
-        "title": "Czech/Slovakian",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "AR",
-            "MX",
-            "PT"
-        ]
-    },
-    {
-        "alias": "dagashi",
-        "title": "Dagashi",
-        "parents": [
-            "gourmet"
-        ],
-        "country_whitelist": [
-            "JP"
-        ]
-    },
-    {
-        "alias": "danish",
-        "title": "Danish",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "DK",
-            "NO",
-            "SE",
-            "FR"
-        ]
-    },
-    {
-        "alias": "delis",
-        "title": "Delis",
-        "parents": [
-            "restaurants"
-        ],
-        "country_blacklist": [
-            "PT",
-            "BE",
-            "IT",
-            "CL",
-            "NL",
-            "SE",
-            "FR"
-        ]
-    },
-    {
-        "alias": "desserts",
-        "title": "Desserts",
-        "parents": [
-            "food"
-        ]
-    },
-    {
-        "alias": "dimsum",
-        "title": "Dim Sum",
-        "parents": [
-            "chinese"
-        ],
-        "country_blacklist": [
-            "TR",
-            "BR",
-            "PT"
-        ]
-    },
-    {
-        "alias": "diners",
-        "title": "Diners",
-        "parents": [
-            "restaurants"
-        ],
-        "country_blacklist": [
-            "AU",
-            "CZ",
-            "SE",
-            "FI"
-        ]
-    },
-    {
-        "alias": "dinnertheater",
-        "title": "Dinner Theater",
-        "parents": [
-            "restaurants"
-        ],
-        "country_blacklist": [
-            "BE",
-            "IT",
-            "NL",
-            "JP",
-            "FR"
-        ]
-    },
-    {
-        "alias": "divebars",
-        "title": "Dive Bars",
-        "parents": [
-            "bars"
-        ],
-        "country_blacklist": [
-            "CZ",
-            "BE",
-            "IT",
-            "NL",
-            "AU",
-            "FR"
-        ]
-    },
-    {
-        "alias": "dominican",
-        "title": "Dominican",
-        "parents": [
-            "caribbean"
-        ],
-        "country_whitelist": [
-            "US"
-        ]
-    },
-    {
-        "alias": "donairs",
-        "title": "Donairs",
-        "parents": [
-            "food"
-        ],
-        "country_whitelist": [
-            "CZ",
-            "CA",
-            "PL",
-            "BE",
-            "DK",
-            "TR",
-            "FR"
-        ]
-    },
-    {
-        "alias": "donburi",
-        "title": "Donburi",
-        "parents": [
-            "japanese"
-        ],
-        "country_whitelist": [
-            "HK",
-            "TW",
-            "JP"
-        ]
-    },
-    {
-        "alias": "donuts",
-        "title": "Donuts",
-        "parents": [
-            "food"
-        ],
-        "country_blacklist": [
-            "ES"
-        ]
-    },
-    {
-        "alias": "drivethrubars",
-        "title": "Drive-Thru Bars",
-        "parents": [
-            "bars"
-        ],
-        "country_whitelist": [
-            "US"
-        ]
-    },
-    {
-        "alias": "dumplings",
-        "title": "Dumplings",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "JP"
-        ]
-    },
-    {
-        "alias": "eastern_european",
-        "title": "Eastern European",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "CZ",
-            "NO",
-            "DK",
-            "AU",
-            "FR"
-        ]
-    },
-    {
-        "alias": "easterngerman",
-        "title": "Eastern German",
-        "parents": [
-            "german"
-        ],
-        "country_whitelist": [
-            "DE"
-        ]
-    },
-    {
-        "alias": "easternmexican",
-        "title": "Eastern Mexican",
-        "parents": [
-            "mexican"
-        ],
-        "country_whitelist": [
-            "MX"
-        ]
-    },
-    {
-        "alias": "egyptian",
-        "title": "Egyptian",
-        "parents": [
-            "mideastern"
-        ],
-        "country_whitelist": [
-            "CA",
-            "BE",
-            "IT",
-            "US",
-            "FR"
-        ]
-    },
-    {
-        "alias": "eltern_cafes",
-        "title": "Parent Cafes",
-        "parents": [
-            "restaurants",
-            "food"
-        ],
-        "country_whitelist": [
-            "DE",
-            "AT",
-            "CH"
-        ]
-    },
-    {
-        "alias": "emilian",
-        "title": "Emilian",
-        "parents": [
-            "italian"
-        ],
-        "country_whitelist": [
-            "IT"
-        ]
-    },
-    {
-        "alias": "empanadas",
-        "title": "Empanadas",
-        "parents": [
-            "food"
-        ],
-        "country_whitelist": [
-            "AR",
-            "ES",
-            "US",
-            "CL"
-        ]
-    },
-    {
-        "alias": "ethiopian",
-        "title": "Ethiopian",
-        "parents": [
-            "restaurants"
-        ],
-        "country_blacklist": [
-            "TR",
-            "CZ",
-            "MX",
-            "SG"
-        ]
-    },
-    {
-        "alias": "falafel",
-        "title": "Falafel",
-        "parents": [
-            "mediterranean"
-        ],
-        "country_blacklist": [
-            "AR",
-            "MX",
-            "PT"
-        ]
-    },
-    {
-        "alias": "filipino",
-        "title": "Filipino",
-        "parents": [
-            "restaurants"
-        ],
-        "country_blacklist": [
-            "TR",
-            "DK",
-            "CZ",
-            "FI"
-        ]
-    },
-    {
-        "alias": "fischbroetchen",
-        "title": "Fischbroetchen",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "DE"
-        ]
-    },
-    {
-        "alias": "fishnchips",
-        "title": "Fish & Chips",
-        "parents": [
-            "restaurants"
-        ],
-        "country_blacklist": [
-            "BR",
-            "PT"
-        ]
-    },
-    {
-        "alias": "flemish",
-        "title": "Flemish",
-        "parents": [
-            "belgian"
-        ],
-        "country_whitelist": [
-            "FR"
-        ]
-    },
-    {
-        "alias": "fondue",
-        "title": "Fondue",
-        "parents": [
-            "restaurants"
-        ],
-        "country_blacklist": [
-            "DK",
-            "CZ",
-            "ES"
-        ]
-    },
-    {
-        "alias": "food",
-        "title": "Food",
-        "parents": []
-    },
-    {
-        "alias": "food_court",
-        "title": "Food Court",
-        "parents": [
-            "restaurants"
-        ],
-        "country_blacklist": [
-            "PL",
-            "MX",
-            "CL",
-            "FI",
-            "AR",
-            "TW",
-            "FR",
-            "ES",
-            "TR"
-        ]
-    },
-    {
-        "alias": "franconian",
-        "title": "Franconian",
-        "parents": [
-            "german"
-        ],
-        "country_whitelist": [
-            "DE"
-        ]
-    },
-    {
-        "alias": "freiduria",
-        "title": "Freiduria",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "AR",
-            "MX",
-            "ES",
-            "CL"
-        ]
-    },
-    {
-        "alias": "french",
-        "title": "French",
-        "parents": [
-            "restaurants"
-        ]
-    },
-    {
-        "alias": "friterie",
-        "title": "Friterie",
-        "parents": [
-            "food"
-        ],
-        "country_whitelist": [
-            "PL",
-            "BE",
-            "IT",
-            "NL",
-            "AU",
-            "FR"
-        ]
-    },
-    {
-        "alias": "friulan",
-        "title": "Friulan",
-        "parents": [
-            "italian"
-        ],
-        "country_whitelist": [
-            "IT"
-        ]
-    },
-    {
-        "alias": "fuzhou",
-        "title": "Fuzhou",
-        "parents": [
-            "chinese"
-        ],
-        "country_whitelist": [
-            "TW",
-            "HK",
-            "MY",
-            "SG"
-        ]
-    },
-    {
-        "alias": "galician",
-        "title": "Galician",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "ES",
-            "PT"
-        ]
-    },
-    {
-        "alias": "gamemeat",
-        "title": "Game Meat",
-        "parents": [
-            "restaurants"
-        ],
-        "country_blacklist": [
-            "MX",
-            "CL",
-            "MY",
-            "FI",
-            "PH",
-            "AR",
-            "TW",
-            "HK",
-            "CA",
-            "PT",
-            "BR",
-            "JP",
-            "TR"
-        ]
-    },
-    {
-        "alias": "gastropubs",
-        "title": "Gastropubs",
-        "parents": [
-            "restaurants"
-        ]
-    },
-    {
-        "alias": "gaybars",
-        "title": "Gay Bars",
-        "parents": [
-            "bars"
-        ]
-    },
-    {
-        "alias": "gelato",
-        "title": "Gelato",
-        "parents": [
-            "food"
-        ],
-        "country_whitelist": [
-            "CZ",
-            "NO",
-            "PL",
-            "SG",
-            "IT",
-            "SE",
-            "US",
-            "PH",
-            "AU",
-            "PT",
-            "DK"
-        ]
-    },
-    {
-        "alias": "georgian",
-        "title": "Georgian",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "GB",
-            "CZ",
-            "PL",
-            "US",
-            "FI",
-            "AT",
-            "DE",
-            "CH"
-        ]
-    },
-    {
-        "alias": "german",
-        "title": "German",
-        "parents": [
-            "restaurants"
-        ]
-    },
-    {
-        "alias": "giblets",
-        "title": "Giblets",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "TR"
-        ]
-    },
-    {
-        "alias": "gozleme",
-        "title": "Gozleme",
-        "parents": [
-            "turkish"
-        ],
-        "country_whitelist": [
-            "TR"
-        ]
-    },
-    {
-        "alias": "greek",
-        "title": "Greek",
-        "parents": [
-            "restaurants"
-        ]
-    },
-    {
-        "alias": "guamanian",
-        "title": "Guamanian",
-        "parents": [
-            "restaurants"
-        ],
-        "country_blacklist": [
-            "PL",
-            "MX",
-            "CL",
-            "JP",
-            "TR",
-            "AR",
-            "FR"
-        ]
-    },
-    {
-        "alias": "gyudon",
-        "title": "Gyudon",
-        "parents": [
-            "donburi"
-        ],
-        "country_whitelist": [
-            "JP"
-        ]
-    },
-    {
-        "alias": "hainan",
-        "title": "Hainan",
-        "parents": [
-            "chinese"
-        ],
-        "country_whitelist": [
-            "HK",
-            "SG",
-            "MY",
-            "US",
-            "PH"
-        ]
-    },
-    {
-        "alias": "haitian",
-        "title": "Haitian",
-        "parents": [
-            "caribbean"
-        ],
-        "country_whitelist": [
-            "CA",
-            "US"
-        ]
-    },
-    {
-        "alias": "hakka",
-        "title": "Hakka",
-        "parents": [
-            "chinese"
-        ],
-        "country_whitelist": [
-            "HK",
-            "CA",
-            "SG",
-            "MY",
-            "PH",
-            "TW"
-        ]
-    },
-    {
-        "alias": "halal",
-        "title": "Halal",
-        "parents": [
-            "restaurants"
-        ],
-        "country_blacklist": [
-            "TR",
-            "PT"
-        ]
-    },
-    {
-        "alias": "handrolls",
-        "title": "Hand Rolls",
-        "parents": [
-            "japanese"
-        ],
-        "country_whitelist": [
-            "BR",
-            "TW"
-        ]
-    },
-    {
-        "alias": "hawaiian",
-        "title": "Hawaiian",
-        "parents": [
-            "restaurants"
-        ],
-        "country_blacklist": [
-            "CZ",
-            "PT",
-            "TR",
-            "DK",
-            "AU"
-        ]
-    },
-    {
-        "alias": "henghwa",
-        "title": "Henghwa",
-        "parents": [
-            "chinese"
-        ],
-        "country_whitelist": [
-            "TW",
-            "HK",
-            "MY",
-            "SG"
-        ]
-    },
-    {
-        "alias": "hessian",
-        "title": "Hessian",
-        "parents": [
-            "german"
-        ],
-        "country_whitelist": [
-            "DE"
-        ]
-    },
-    {
-        "alias": "heuriger",
-        "title": "Heuriger",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "AT"
-        ]
-    },
-    {
-        "alias": "himalayan",
-        "title": "Himalayan/Nepalese",
-        "parents": [
-            "restaurants"
-        ]
-    },
-    {
-        "alias": "hkcafe",
-        "title": "Hong Kong Style Cafe",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "HK",
-            "CA",
-            "TW",
-            "US"
-        ]
-    },
-    {
-        "alias": "hokkien",
-        "title": "Hokkien",
-        "parents": [
-            "chinese"
-        ],
-        "country_whitelist": [
-            "TW",
-            "HK",
-            "MY",
-            "SG"
-        ]
-    },
-    {
-        "alias": "homemadefood",
-        "title": "Homemade Food",
-        "parents": [
-            "turkish"
-        ],
-        "country_whitelist": [
-            "TR"
-        ]
-    },
-    {
-        "alias": "honduran",
-        "title": "Honduran",
-        "parents": [
-            "restaurants"
-        ],
-        "country_blacklist": [
-            "TR",
-            "JP"
-        ]
-    },
-    {
-        "alias": "horumon",
-        "title": "Horumon",
-        "parents": [
-            "japanese"
-        ],
-        "country_whitelist": [
-            "TW",
-            "JP"
-        ]
-    },
-    {
-        "alias": "hotdog",
-        "title": "Hot Dogs",
-        "parents": [
-            "restaurants"
-        ]
-    },
-    {
-        "alias": "hotdogs",
-        "title": "Fast Food",
-        "parents": [
-            "restaurants"
-        ]
-    },
-    {
-        "alias": "hotpot",
-        "title": "Hot Pot",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "SG",
-            "MY",
-            "SE",
-            "US",
-            "PH",
-            "TW",
-            "FR",
-            "HK",
-            "CA",
-            "BR",
-            "JP"
-        ]
-    },
-    {
-        "alias": "hunan",
-        "title": "Hunan",
-        "parents": [
-            "chinese"
-        ],
-        "country_whitelist": [
-            "HK",
-            "SG",
-            "MY",
-            "TW",
-            "FR"
-        ]
-    },
-    {
-        "alias": "hungarian",
-        "title": "Hungarian",
-        "parents": [
-            "restaurants"
-        ]
-    },
-    {
-        "alias": "iberian",
-        "title": "Iberian",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "US",
-            "CA",
-            "PT"
-        ]
-    },
-    {
-        "alias": "icecream",
-        "title": "Ice Cream & Frozen Yogurt",
-        "parents": [
-            "food"
-        ]
-    },
-    {
-        "alias": "indonesian",
-        "title": "Indonesian",
-        "parents": [
-            "restaurants"
-        ],
-        "country_blacklist": [
-            "MX",
-            "ES"
-        ]
-    },
-    {
-        "alias": "international",
-        "title": "International",
-        "parents": [
-            "restaurants"
-        ],
-        "country_blacklist": [
-            "TR",
-            "IT",
-            "MY",
-            "US",
-            "FI",
-            "PH"
-        ]
-    },
-    {
-        "alias": "irish",
-        "title": "Irish",
-        "parents": [
-            "restaurants"
-        ]
-    },
-    {
-        "alias": "irish_pubs",
-        "title": "Irish Pub",
-        "parents": [
-            "bars"
-        ]
-    },
-    {
-        "alias": "island_pub",
-        "title": "Island Pub",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "SE"
-        ]
-    },
-    {
-        "alias": "israeli",
-        "title": "Israeli",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "DE",
-            "CZ",
-            "AT",
-            "CH"
-        ]
-    },
-    {
-        "alias": "italian",
-        "title": "Italian",
-        "parents": [
-            "restaurants"
-        ]
-    },
-    {
-        "alias": "izakaya",
-        "title": "Izakaya",
-        "parents": [
-            "japanese"
-        ],
-        "country_whitelist": [
-            "SG",
-            "MX",
-            "US",
-            "AU",
-            "TW",
-            "HK",
-            "BR",
-            "JP",
-            "NZ"
-        ]
-    },
-    {
-        "alias": "jaliscan",
-        "title": "Jaliscan",
-        "parents": [
-            "mexican"
-        ],
-        "country_whitelist": [
-            "MX"
-        ]
-    },
-    {
-        "alias": "japacurry",
-        "title": "Japanese Curry",
-        "parents": [
-            "japanese"
-        ],
-        "country_whitelist": [
-            "HK",
-            "SG",
-            "US",
-            "JP",
-            "TW"
-        ]
-    },
-    {
-        "alias": "japanese",
-        "title": "Japanese",
-        "parents": [
-            "restaurants"
-        ]
-    },
-    {
-        "alias": "jewish",
-        "title": "Jewish",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "DE",
-            "IT",
-            "PL"
-        ]
-    },
-    {
-        "alias": "jpsweets",
-        "title": "Japanese Sweets",
-        "parents": [
-            "food"
-        ],
-        "country_whitelist": [
-            "JP"
-        ]
-    },
-    {
-        "alias": "kaiseki",
-        "title": "Kaiseki",
-        "parents": [
-            "japanese"
-        ],
-        "country_whitelist": [
-            "TW",
-            "JP"
-        ]
-    },
-    {
-        "alias": "kebab",
-        "title": "Kebab",
-        "parents": [
-            "restaurants"
-        ]
-    },
-    {
-        "alias": "kombucha",
-        "title": "Kombucha",
-        "parents": [
-            "food"
-        ],
-        "country_whitelist": [
-            "US"
-        ]
-    },
-    {
-        "alias": "kopitiam",
-        "title": "Kopitiam",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "MY",
-            "SG"
-        ]
-    },
-    {
-        "alias": "korean",
-        "title": "Korean",
-        "parents": [
-            "restaurants"
-        ]
-    },
-    {
-        "alias": "kosher",
-        "title": "Kosher",
-        "parents": [
-            "restaurants"
-        ],
-        "country_blacklist": [
-            "TR",
-            "PT"
-        ]
-    },
-    {
-        "alias": "kurdish",
-        "title": "Kurdish",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "NO",
-            "SE"
-        ]
-    },
-    {
-        "alias": "kushikatsu",
-        "title": "Kushikatsu",
-        "parents": [
-            "japanese"
-        ],
-        "country_whitelist": [
-            "JP"
-        ]
-    },
-    {
-        "alias": "lahmacun",
-        "title": "Lahmacun",
-        "parents": [
-            "turkish"
-        ],
-        "country_whitelist": [
-            "TR"
-        ]
-    },
-    {
-        "alias": "laos",
-        "title": "Laos",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "AU"
-        ]
-    },
-    {
-        "alias": "laotian",
-        "title": "Laotian",
-        "parents": [
-            "restaurants"
-        ],
-        "country_blacklist": [
-            "CZ"
-        ]
-    },
-    {
-        "alias": "latin",
-        "title": "Latin American",
-        "parents": [
-            "restaurants"
-        ]
-    },
-    {
-        "alias": "lebanese",
-        "title": "Lebanese",
-        "parents": [
-            "mideastern"
-        ],
-        "country_blacklist": [
-            "AR",
-            "HK",
-            "JP"
-        ]
-    },
-    {
-        "alias": "ligurian",
-        "title": "Ligurian",
-        "parents": [
-            "italian"
-        ],
-        "country_whitelist": [
-            "IT",
-            "FR"
-        ]
-    },
-    {
-        "alias": "lumbard",
-        "title": "Lumbard",
-        "parents": [
-            "italian"
-        ],
-        "country_whitelist": [
-            "IT"
-        ]
-    },
-    {
-        "alias": "lyonnais",
-        "title": "Lyonnais",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "BE",
-            "FR"
-        ]
-    },
-    {
-        "alias": "macarons",
-        "title": "Macarons",
-        "parents": [
-            "gourmet"
-        ],
-        "country_blacklist": [
-            "PH",
-            "IT",
-            "MY"
-        ]
-    },
-    {
-        "alias": "madeira",
-        "title": "Madeira",
-        "parents": [
-            "portuguese"
-        ],
-        "country_whitelist": [
-            "PT"
-        ]
-    },
-    {
-        "alias": "malaysian",
-        "title": "Malaysian",
-        "parents": [
-            "restaurants"
-        ],
-        "country_blacklist": [
-            "TR",
-            "CZ",
-            "ES",
-            "PT"
-        ]
-    },
-    {
-        "alias": "mamak",
-        "title": "Mamak",
-        "parents": [
-            "malaysian"
-        ],
-        "country_whitelist": [
-            "AU",
-            "MY"
-        ]
-    },
-    {
-        "alias": "mauritius",
-        "title": "Mauritius",
-        "parents": [
-            "french"
-        ],
-        "country_blacklist": [
-            "NO",
-            "PL",
-            "MX",
-            "CL",
-            "AU",
-            "AR",
-            "AT",
-            "DE",
-            "BR",
-            "DK",
-            "CH",
-            "JP",
-            "TR",
-            "NZ"
-        ]
-    },
-    {
-        "alias": "meatballs",
-        "title": "Meatballs",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "TR",
-            "BE",
-            "NL",
-            "FR"
-        ]
-    },
-    {
-        "alias": "mediterranean",
-        "title": "Mediterranean",
-        "parents": [
-            "restaurants"
-        ]
-    },
-    {
-        "alias": "mexican",
-        "title": "Mexican",
-        "parents": [
-            "restaurants"
-        ]
-    },
-    {
-        "alias": "mideastern",
-        "title": "Middle Eastern",
-        "parents": [
-            "restaurants"
-        ],
-        "country_blacklist": [
-            "BR"
-        ]
-    },
-    {
-        "alias": "milkbars",
-        "title": "Milk Bars",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "AU",
-            "PL"
-        ]
-    },
-    {
-        "alias": "milkshakebars",
-        "title": "Milkshake Bars",
-        "parents": [
-            "food"
-        ],
-        "country_whitelist": [
-            "GB"
-        ]
-    },
-    {
-        "alias": "minho",
-        "title": "Minho",
-        "parents": [
-            "portuguese"
-        ],
-        "country_whitelist": [
-            "PT"
-        ]
-    },
-    {
-        "alias": "modern_australian",
-        "title": "Modern Australian",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "AU"
-        ]
-    },
-    {
-        "alias": "modern_european",
-        "title": "Modern European",
-        "parents": [
-            "restaurants"
-        ]
-    },
-    {
-        "alias": "mongolian",
-        "title": "Mongolian",
-        "parents": [
-            "restaurants"
-        ],
-        "country_blacklist": [
-            "TR",
-            "ES",
-            "PT",
-            "FI"
-        ]
-    },
-    {
-        "alias": "moroccan",
-        "title": "Moroccan",
-        "parents": [
-            "restaurants"
-        ],
-        "country_blacklist": [
-            "TR"
-        ]
-    },
-    {
-        "alias": "napoletana",
-        "title": "Napoletana",
-        "parents": [
-            "italian"
-        ],
-        "country_whitelist": [
-            "CZ",
-            "IT",
-            "FR"
-        ]
-    },
-    {
-        "alias": "nasilemak",
-        "title": "Nasi Lemak",
-        "parents": [
-            "food"
-        ],
-        "country_whitelist": [
-            "MY",
-            "SG"
-        ]
-    },
-    {
-        "alias": "newamerican",
-        "title": "American (New)",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "GB",
-            "NO",
-            "DK",
-            "SE",
-            "US",
-            "IE"
-        ]
-    },
-    {
-        "alias": "newcanadian",
-        "title": "Canadian (New)",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "CA"
-        ]
-    },
-    {
-        "alias": "newmexican",
-        "title": "New Mexican Cuisine",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "US"
-        ]
-    },
-    {
-        "alias": "newzealand",
-        "title": "New Zealand",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "NZ"
-        ]
-    },
-    {
-        "alias": "nicaraguan",
-        "title": "Nicaraguan",
-        "parents": [
-            "restaurants"
-        ],
-        "country_blacklist": [
-            "AR",
-            "CL"
-        ]
-    },
-    {
-        "alias": "nicois",
-        "title": "Nicoise",
-        "parents": [
-            "french"
-        ],
-        "country_whitelist": [
-            "FR"
-        ]
-    },
-    {
-        "alias": "nightfood",
-        "title": "Night Food",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "NO",
-            "PL",
-            "DK",
-            "SE",
-            "TR"
-        ]
-    },
-    {
-        "alias": "nikkei",
-        "title": "Nikkei",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "MX",
-            "CL",
-            "BR",
-            "ES",
-            "AR"
-        ]
-    },
-    {
-        "alias": "noodles",
-        "title": "Noodles",
-        "parents": [
-            "restaurants"
-        ],
-        "country_blacklist": [
-            "DE",
-            "AT",
-            "CH",
-            "FR"
-        ]
-    },
-    {
-        "alias": "norcinerie",
-        "title": "Norcinerie",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "IT"
-        ]
-    },
-    {
-        "alias": "northeasternbrazilian",
-        "title": "Northeastern Brazilian",
-        "parents": [
-            "brazilian"
-        ],
-        "country_whitelist": [
-            "BR"
-        ]
-    },
-    {
-        "alias": "northernbrazilian",
-        "title": "Northern Brazilian",
-        "parents": [
-            "brazilian"
-        ],
-        "country_whitelist": [
-            "BR"
-        ]
-    },
-    {
-        "alias": "northerngerman",
-        "title": "Northern German",
-        "parents": [
-            "german"
-        ],
-        "country_whitelist": [
-            "DE"
-        ]
-    },
-    {
-        "alias": "northernmexican",
-        "title": "Northern Mexican",
-        "parents": [
-            "mexican"
-        ],
-        "country_whitelist": [
-            "MX"
-        ]
-    },
-    {
-        "alias": "norwegian",
-        "title": "Traditional Norwegian",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "NO",
-            "FR"
-        ]
-    },
-    {
-        "alias": "nyonya",
-        "title": "Nyonya",
-        "parents": [
-            "malaysian"
-        ],
-        "country_whitelist": [
-            "AU",
-            "MY"
-        ]
-    },
-    {
-        "alias": "oaxacan",
-        "title": "Oaxacan",
-        "parents": [
-            "mexican"
-        ],
-        "country_whitelist": [
-            "MX"
-        ]
-    },
-    {
-        "alias": "oden",
-        "title": "Oden",
-        "parents": [
-            "japanese"
-        ],
-        "country_whitelist": [
-            "TW",
-            "JP"
-        ]
-    },
-    {
-        "alias": "okinawan",
-        "title": "Okinawan",
-        "parents": [
-            "japanese"
-        ],
-        "country_whitelist": [
-            "JP"
-        ]
-    },
-    {
-        "alias": "okonomiyaki",
-        "title": "Okonomiyaki",
-        "parents": [
-            "japanese"
-        ],
-        "country_whitelist": [
-            "TW",
-            "JP"
-        ]
-    },
-    {
-        "alias": "onigiri",
-        "title": "Onigiri",
-        "parents": [
-            "japanese"
-        ],
-        "country_whitelist": [
-            "TW",
-            "JP"
-        ]
-    },
-    {
-        "alias": "opensandwiches",
-        "title": "Open Sandwiches",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "TR",
-            "DK",
-            "NO",
-            "SE"
-        ]
-    },
-    {
-        "alias": "oriental",
-        "title": "Oriental",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "DE",
-            "PT",
-            "CH",
-            "AT",
-            "FR"
-        ]
-    },
-    {
-        "alias": "ottomancuisine",
-        "title": "Ottoman Cuisine",
-        "parents": [
-            "turkish"
-        ],
-        "country_whitelist": [
-            "TR"
-        ]
-    },
-    {
-        "alias": "oyakodon",
-        "title": "Oyakodon",
-        "parents": [
-            "donburi"
-        ],
-        "country_whitelist": [
-            "JP"
-        ]
-    },
-    {
-        "alias": "pakistani",
-        "title": "Pakistani",
-        "parents": [
-            "restaurants"
-        ]
-    },
-    {
-        "alias": "palatine",
-        "title": "Palatine",
-        "parents": [
-            "german"
-        ],
-        "country_whitelist": [
-            "DE"
-        ]
-    },
-    {
-        "alias": "panasian",
-        "title": "Pan Asian",
-        "parents": [
-            "restaurants"
-        ],
-        "country_blacklist": [
-            "IT"
-        ]
-    },
-    {
-        "alias": "panzerotti",
-        "title": "Panzerotti",
-        "parents": [
-            "food"
-        ],
-        "country_whitelist": [
-            "IT"
-        ]
-    },
-    {
-        "alias": "parma",
-        "title": "Parma",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "AU"
-        ]
-    },
-    {
-        "alias": "pekinese",
-        "title": "Pekinese",
-        "parents": [
-            "chinese"
-        ],
-        "country_whitelist": [
-            "HK",
-            "SG",
-            "IT",
-            "MY",
-            "JP",
-            "TW",
-            "FR"
-        ]
-    },
-    {
-        "alias": "persian",
-        "title": "Persian/Iranian",
-        "parents": [
-            "restaurants"
-        ]
-    },
-    {
-        "alias": "peruvian",
-        "title": "Peruvian",
-        "parents": [
-            "restaurants"
-        ],
-        "country_blacklist": [
-            "TR",
-            "PT",
-            "SG"
-        ]
-    },
-    {
-        "alias": "piadina",
-        "title": "Piadina",
-        "parents": [
-            "food"
-        ],
-        "country_whitelist": [
-            "IT",
-            "US"
-        ]
-    },
-    {
-        "alias": "piemonte",
-        "title": "Piemonte",
-        "parents": [
-            "italian"
-        ],
-        "country_whitelist": [
-            "IT",
-            "FR"
-        ]
-    },
-    {
-        "alias": "pierogis",
-        "title": "Pierogis",
-        "parents": [
-            "polish"
-        ],
-        "country_whitelist": [
-            "PL"
-        ]
-    },
-    {
-        "alias": "pita",
-        "title": "Pita",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "TR"
-        ]
-    },
-    {
-        "alias": "pizza",
-        "title": "Pizza",
-        "parents": [
-            "restaurants"
-        ]
-    },
-    {
-        "alias": "poke",
-        "title": "Poke",
-        "parents": [
-            "food"
-        ],
-        "country_whitelist": [
-            "CA",
-            "BE",
-            "NL",
-            "SE",
-            "US",
-            "FR"
-        ]
-    },
-    {
-        "alias": "polish",
-        "title": "Polish",
-        "parents": [
-            "restaurants"
-        ],
-        "country_blacklist": [
-            "SG",
-            "FI"
-        ]
-    },
-    {
-        "alias": "polynesian",
-        "title": "Polynesian",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "US"
-        ]
-    },
-    {
-        "alias": "popuprestaurants",
-        "title": "Pop-Up Restaurants",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "GB",
-            "NO",
-            "MY",
-            "TW",
-            "HK",
-            "SG",
-            "NL",
-            "SE",
-            "US",
-            "PH",
-            "AU",
-            "FR",
-            "DE",
-            "CA",
-            "BE",
-            "NZ",
-            "DK",
-            "IE"
-        ]
-    },
-    {
-        "alias": "portuguese",
-        "title": "Portuguese",
-        "parents": [
-            "restaurants"
-        ],
-        "country_blacklist": [
-            "FI"
-        ]
-    },
-    {
-        "alias": "potatoes",
-        "title": "Potatoes",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "AU",
-            "DE",
-            "AT",
-            "CH"
-        ]
-    },
-    {
-        "alias": "poutineries",
-        "title": "Poutineries",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "CA",
-            "US"
-        ]
-    },
-    {
-        "alias": "pretzels",
-        "title": "Pretzels",
-        "parents": [
-            "food"
-        ],
-        "country_whitelist": [
-            "DE",
-            "US",
-            "CH",
-            "PT"
-        ]
-    },
-    {
-        "alias": "provencal",
-        "title": "Provencal",
-        "parents": [
-            "french"
-        ],
-        "country_whitelist": [
-            "FR"
-        ]
-    },
-    {
-        "alias": "pubfood",
-        "title": "Pub Food",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "AU"
-        ]
-    },
-    {
-        "alias": "pubs",
-        "title": "Pubs",
-        "parents": [
-            "bars"
-        ]
-    },
-    {
-        "alias": "pueblan",
-        "title": "Pueblan",
-        "parents": [
-            "mexican"
-        ],
-        "country_whitelist": [
-            "MX"
-        ]
-    },
-    {
-        "alias": "puertorican",
-        "title": "Puerto Rican",
-        "parents": [
-            "caribbean"
-        ],
-        "country_whitelist": [
-            "US"
-        ]
-    },
-    {
-        "alias": "pulquerias",
-        "title": "Pulquerias",
-        "parents": [
-            "bars"
-        ],
-        "country_whitelist": [
-            "MX"
-        ]
-    },
-    {
-        "alias": "ramen",
-        "title": "Ramen",
-        "parents": [
-            "japanese"
-        ]
-    },
-    {
-        "alias": "restaurants",
-        "title": "Restaurants",
-        "parents": []
-    },
-    {
-        "alias": "rhinelandian",
-        "title": "Rhinelandian",
-        "parents": [
-            "german"
-        ],
-        "country_whitelist": [
-            "DE"
-        ]
-    },
-    {
-        "alias": "ribatejo",
-        "title": "Ribatejo",
-        "parents": [
-            "portuguese"
-        ],
-        "country_whitelist": [
-            "PT"
-        ]
-    },
-    {
-        "alias": "riceshop",
-        "title": "Rice",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "TR",
-            "JP"
-        ]
-    },
-    {
-        "alias": "robatayaki",
-        "title": "Robatayaki",
-        "parents": [
-            "japanese"
-        ],
-        "country_whitelist": [
-            "HK",
-            "TW",
-            "JP"
-        ]
-    },
-    {
-        "alias": "rodizios",
-        "title": "Rodizios",
-        "parents": [
-            "brazilian"
-        ],
-        "country_whitelist": [
-            "BR",
-            "AR",
-            "PT"
-        ]
-    },
-    {
-        "alias": "roman",
-        "title": "Roman",
-        "parents": [
-            "italian"
-        ],
-        "country_whitelist": [
-            "IT",
-            "FR",
-            "JP"
-        ]
-    },
-    {
-        "alias": "romanian",
-        "title": "Romanian",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "CZ",
-            "PL",
-            "AT",
-            "FR",
-            "DE",
-            "BE",
-            "CH",
-            "ES"
-        ]
-    },
-    {
-        "alias": "rotisserie_chicken",
-        "title": "Rotisserie Chicken",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "PL",
-            "MX",
-            "IT",
-            "CL",
-            "NL",
-            "AU",
-            "AR",
-            "FR",
-            "PT",
-            "BE",
-            "BR",
-            "ES",
-            "NZ"
-        ]
-    },
-    {
-        "alias": "russian",
-        "title": "Russian",
-        "parents": [
-            "restaurants"
-        ]
-    },
-    {
-        "alias": "sakebars",
-        "title": "Sake Bars",
-        "parents": [
-            "bars"
-        ],
-        "country_whitelist": [
-            "JP"
-        ]
-    },
-    {
-        "alias": "salad",
-        "title": "Salad",
-        "parents": [
-            "restaurants"
-        ]
-    },
-    {
-        "alias": "salumerie",
-        "title": "Salumerie",
-        "parents": [
-            "food"
-        ],
-        "country_whitelist": [
-            "PT",
-            "MX",
-            "IT",
-            "CL",
-            "ES",
-            "AR"
-        ]
-    },
-    {
-        "alias": "salvadoran",
-        "title": "Salvadoran",
-        "parents": [
-            "latin"
-        ],
-        "country_whitelist": [
-            "CA",
-            "US"
-        ]
-    },
-    {
-        "alias": "sandwiches",
-        "title": "Sandwiches",
-        "parents": [
-            "restaurants"
-        ]
-    },
-    {
-        "alias": "sardinian",
-        "title": "Sardinian",
-        "parents": [
-            "italian"
-        ],
-        "country_whitelist": [
-            "US",
-            "IT",
-            "FR"
-        ]
-    },
-    {
-        "alias": "scandinavian",
-        "title": "Scandinavian",
-        "parents": [
-            "restaurants"
-        ],
-        "country_blacklist": [
-            "PT"
-        ]
-    },
-    {
-        "alias": "schnitzel",
-        "title": "Schnitzel",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "DE",
-            "AT",
-            "CH",
-            "PL"
-        ]
-    },
-    {
-        "alias": "scottish",
-        "title": "Scottish",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "DE",
-            "GB",
-            "CA",
-            "CH",
-            "US",
-            "AT",
-            "IE"
-        ]
-    },
-    {
-        "alias": "seafood",
-        "title": "Seafood",
-        "parents": [
-            "restaurants"
-        ]
-    },
-    {
-        "alias": "senegalese",
-        "title": "Senegalese",
-        "parents": [
-            "african"
-        ],
-        "country_whitelist": [
-            "CA",
-            "BE",
-            "IT",
-            "US",
-            "FR"
-        ]
-    },
-    {
-        "alias": "serbocroatian",
-        "title": "Serbo Croatian",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "CZ",
-            "PL",
-            "IT",
-            "CL",
-            "SE",
-            "AR",
-            "AT",
-            "FR",
-            "DE",
-            "BE",
-            "CH"
-        ]
-    },
-    {
-        "alias": "shanghainese",
-        "title": "Shanghainese",
-        "parents": [
-            "chinese"
-        ],
-        "country_whitelist": [
-            "SG",
-            "IT",
-            "MY",
-            "SE",
-            "US",
-            "AU",
-            "TW",
-            "FR",
-            "HK",
-            "BE",
-            "JP"
-        ]
-    },
-    {
-        "alias": "shavedice",
-        "title": "Shaved Ice",
-        "parents": [
-            "food"
-        ],
-        "country_whitelist": [
-            "CZ",
-            "SG",
-            "MX",
-            "IT",
-            "CL",
-            "US",
-            "AR",
-            "TW",
-            "JP"
-        ]
-    },
-    {
-        "alias": "shavedsnow",
-        "title": "Shaved Snow",
-        "parents": [
-            "food"
-        ],
-        "country_whitelist": [
-            "HK",
-            "CA",
-            "SG",
-            "MY",
-            "US",
-            "TW"
-        ]
-    },
-    {
-        "alias": "sicilian",
-        "title": "Sicilian",
-        "parents": [
-            "italian"
-        ],
-        "country_whitelist": [
-            "CZ",
-            "PL",
-            "IT",
-            "US",
-            "FR"
-        ]
-    },
-    {
-        "alias": "signature_cuisine",
-        "title": "Signature Cuisine",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "NO",
-            "MX",
-            "CL",
-            "SE",
-            "AR",
-            "PT",
-            "DK",
-            "ES"
-        ]
-    },
-    {
-        "alias": "singaporean",
-        "title": "Singaporean",
-        "parents": [
-            "restaurants"
-        ],
-        "country_blacklist": [
-            "CZ",
-            "PT",
-            "DK",
-            "ES",
-            "FI",
-            "TR"
-        ]
-    },
-    {
-        "alias": "slovakian",
-        "title": "Slovakian",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "GB",
-            "CZ",
-            "PL",
-            "IT",
-            "US",
-            "AU",
-            "FR",
-            "CA",
-            "BE",
-            "IE"
-        ]
-    },
-    {
-        "alias": "smokehouse",
-        "title": "Smokehouse",
-        "parents": [
-            "food"
-        ],
-        "country_blacklist": [
-            "PL",
-            "MX",
-            "IT",
-            "CL",
-            "TR",
-            "AR",
-            "FR"
-        ]
-    },
-    {
-        "alias": "soba",
-        "title": "Soba",
-        "parents": [
-            "japanese"
-        ],
-        "country_whitelist": [
-            "TW",
-            "JP"
-        ]
-    },
-    {
-        "alias": "soulfood",
-        "title": "Soul Food",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "GB",
-            "NO",
-            "PL",
-            "NL",
-            "SE",
-            "US",
-            "CA",
-            "ES",
-            "IE"
-        ]
-    },
-    {
-        "alias": "soup",
-        "title": "Soup",
-        "parents": [
-            "restaurants"
-        ]
-    },
-    {
-        "alias": "southafrican",
-        "title": "South African",
-        "parents": [
-            "african"
-        ],
-        "country_whitelist": [
-            "CA",
-            "BE",
-            "IT",
-            "US",
-            "AU",
-            "FR"
-        ]
-    },
-    {
-        "alias": "southern",
-        "title": "Southern",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "GB",
-            "PL",
-            "IE",
-            "NL",
-            "SE",
-            "US",
-            "CA",
-            "TR",
-            "NZ"
-        ]
-    },
-    {
-        "alias": "spanish",
-        "title": "Spanish",
-        "parents": [
-            "restaurants"
-        ]
-    },
-    {
-        "alias": "speakeasies",
-        "title": "Speakeasies",
-        "parents": [
-            "bars"
-        ],
-        "country_blacklist": [
-            "NO",
-            "PL",
-            "IT",
-            "DK",
-            "TR",
-            "FR"
-        ]
-    },
-    {
-        "alias": "srilankan",
-        "title": "Sri Lankan",
-        "parents": [
-            "restaurants"
-        ],
-        "country_blacklist": [
-            "CZ"
-        ]
-    },
-    {
-        "alias": "steak",
-        "title": "Steakhouses",
-        "parents": [
-            "restaurants"
-        ]
-    },
-    {
-        "alias": "sukiyaki",
-        "title": "Sukiyaki",
-        "parents": [
-            "japanese"
-        ],
-        "country_whitelist": [
-            "TW",
-            "JP"
-        ]
-    },
-    {
-        "alias": "supperclubs",
-        "title": "Supper Clubs",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "GB",
-            "CA",
-            "ES",
-            "US"
-        ]
-    },
-    {
-        "alias": "sushi",
-        "title": "Sushi Bars",
-        "parents": [
-            "restaurants"
-        ]
-    },
-    {
-        "alias": "swabian",
-        "title": "Swabian",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "DE",
-            "AT",
-            "CH"
-        ]
-    },
-    {
-        "alias": "swedish",
-        "title": "Swedish",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "SE"
-        ]
-    },
-    {
-        "alias": "swissfood",
-        "title": "Swiss Food",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "DE",
-            "CZ",
-            "MX",
-            "CL",
-            "CH",
-            "ES",
-            "AR"
-        ]
-    },
-    {
-        "alias": "syrian",
-        "title": "Syrian",
-        "parents": [
-            "restaurants"
-        ]
-    },
-    {
-        "alias": "szechuan",
-        "title": "Szechuan",
-        "parents": [
-            "chinese"
-        ],
-        "country_whitelist": [
-            "GB",
-            "IE",
-            "SG",
-            "MY",
-            "US",
-            "AU",
-            "TW",
-            "FR",
-            "HK",
-            "JP",
-            "NZ"
-        ]
-    },
-    {
-        "alias": "tabac",
-        "title": "Tabac",
-        "parents": [
-            "bars"
-        ],
-        "country_whitelist": [
-            "CZ",
-            "BE",
-            "IT",
-            "ES",
-            "FR"
-        ]
-    },
-    {
-        "alias": "tabernas",
-        "title": "Tabernas",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "TR",
-            "ES",
-            "PT"
-        ]
-    },
-    {
-        "alias": "tacos",
-        "title": "Tacos",
-        "parents": [
-            "mexican"
-        ],
-        "country_whitelist": [
-            "MX",
-            "US"
-        ]
-    },
-    {
-        "alias": "taiwanese",
-        "title": "Taiwanese",
-        "parents": [
-            "restaurants"
-        ],
-        "country_blacklist": [
-            "CZ",
-            "PT",
-            "ES",
-            "FI",
-            "TR"
-        ]
-    },
-    {
-        "alias": "taiyaki",
-        "title": "Taiyaki",
-        "parents": [
-            "jpsweets"
-        ],
-        "country_whitelist": [
-            "JP"
-        ]
-    },
-    {
-        "alias": "takoyaki",
-        "title": "Takoyaki",
-        "parents": [
-            "japanese"
-        ],
-        "country_whitelist": [
-            "TW",
-            "JP"
-        ]
-    },
-    {
-        "alias": "tamales",
-        "title": "Tamales",
-        "parents": [
-            "mexican"
-        ],
-        "country_whitelist": [
-            "MX"
-        ]
-    },
-    {
-        "alias": "tapas",
-        "title": "Tapas Bars",
-        "parents": [
-            "restaurants"
-        ],
-        "country_blacklist": [
-            "AU",
-            "SG",
-            "FI"
-        ]
-    },
-    {
-        "alias": "tavolacalda",
-        "title": "Tavola Calda",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "IT"
-        ]
-    },
-    {
-        "alias": "tempura",
-        "title": "Tempura",
-        "parents": [
-            "japanese"
-        ],
-        "country_whitelist": [
-            "SG",
-            "TW",
-            "JP"
-        ]
-    },
-    {
-        "alias": "teochew",
-        "title": "Teochew",
-        "parents": [
-            "chinese"
-        ],
-        "country_whitelist": [
-            "TW",
-            "HK",
-            "MY",
-            "SG"
-        ]
-    },
-    {
-        "alias": "teppanyaki",
-        "title": "Teppanyaki",
-        "parents": [
-            "japanese"
-        ],
-        "country_whitelist": [
-            "SG",
-            "MX",
-            "US",
-            "AU",
-            "TW",
-            "HK",
-            "JP",
-            "NZ"
-        ]
-    },
-    {
-        "alias": "tex-mex",
-        "title": "Tex-Mex",
-        "parents": [
-            "restaurants"
-        ],
-        "country_blacklist": [
-            "AU",
-            "DK",
-            "ES",
-            "PT"
-        ]
-    },
-    {
-        "alias": "thai",
-        "title": "Thai",
-        "parents": [
-            "restaurants"
-        ]
-    },
-    {
-        "alias": "themedcafes",
-        "title": "Themed Cafes",
-        "parents": [
-            "cafes"
-        ],
-        "country_whitelist": [
-            "PL",
-            "SG",
-            "NL",
-            "MY",
-            "US",
-            "FI",
-            "PH",
-            "TW",
-            "FR",
-            "DE",
-            "HK",
-            "BE",
-            "JP"
-        ]
-    },
-    {
-        "alias": "tikibars",
-        "title": "Tiki Bars",
-        "parents": [
-            "bars"
-        ],
-        "country_blacklist": [
-            "DE",
-            "PL",
-            "CH",
-            "JP",
-            "TR",
-            "AT",
-            "FR"
-        ]
-    },
-    {
-        "alias": "tonkatsu",
-        "title": "Tonkatsu",
-        "parents": [
-            "japanese"
-        ],
-        "country_whitelist": [
-            "SG",
-            "TW",
-            "JP"
-        ]
-    },
-    {
-        "alias": "torshi",
-        "title": "Torshi",
-        "parents": [
-            "food"
-        ],
-        "country_whitelist": [
-            "TR"
-        ]
-    },
-    {
-        "alias": "tortillas",
-        "title": "Tortillas",
-        "parents": [
-            "food"
-        ],
-        "country_whitelist": [
-            "MX"
-        ]
-    },
-    {
-        "alias": "tradamerican",
-        "title": "American (Traditional)",
-        "parents": [
-            "restaurants"
-        ]
-    },
-    {
-        "alias": "traditional_swedish",
-        "title": "Traditional Swedish",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "SE",
-            "FI"
-        ]
-    },
-    {
-        "alias": "trattorie",
-        "title": "Trattorie",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "PL",
-            "IT",
-            "CL",
-            "CH",
-            "AR",
-            "FR"
-        ]
-    },
-    {
-        "alias": "turkish",
-        "title": "Turkish",
-        "parents": [
-            "restaurants"
-        ]
-    },
-    {
-        "alias": "turkishravioli",
-        "title": "Turkish Ravioli",
-        "parents": [
-            "turkish"
-        ],
-        "country_whitelist": [
-            "TR"
-        ]
-    },
-    {
-        "alias": "tuscan",
-        "title": "Tuscan",
-        "parents": [
-            "italian"
-        ],
-        "country_whitelist": [
-            "US",
-            "IT",
-            "FR"
-        ]
-    },
-    {
-        "alias": "udon",
-        "title": "Udon",
-        "parents": [
-            "japanese"
-        ],
-        "country_whitelist": [
-            "HK",
-            "NO",
-            "FI",
-            "DK",
-            "SE",
-            "JP",
-            "TW"
-        ]
-    },
-    {
-        "alias": "ukrainian",
-        "title": "Ukrainian",
-        "parents": [
-            "restaurants"
-        ],
-        "country_blacklist": [
-            "TR",
-            "DK",
-            "ES"
-        ]
-    },
-    {
-        "alias": "unagi",
-        "title": "Unagi",
-        "parents": [
-            "japanese"
-        ],
-        "country_whitelist": [
-            "TW",
-            "JP"
-        ]
-    },
-    {
-        "alias": "uzbek",
-        "title": "Uzbek",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "CZ",
-            "US"
-        ]
-    },
-    {
-        "alias": "vegan",
-        "title": "Vegan",
-        "parents": [
-            "restaurants"
-        ]
-    },
-    {
-        "alias": "vegetarian",
-        "title": "Vegetarian",
-        "parents": [
-            "restaurants"
-        ]
-    },
-    {
-        "alias": "venetian",
-        "title": "Venetian",
-        "parents": [
-            "italian"
-        ],
-        "country_whitelist": [
-            "IT",
-            "FR"
-        ]
-    },
-    {
-        "alias": "venezuelan",
-        "title": "Venezuelan",
-        "parents": [
-            "latin"
-        ],
-        "country_whitelist": [
-            "CA",
-            "PT",
-            "CL",
-            "ES",
-            "US",
-            "AR",
-            "FR"
-        ]
-    },
-    {
-        "alias": "venison",
-        "title": "Venison",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "GB",
-            "CZ",
-            "NO",
-            "PL",
-            "IE",
-            "SG",
-            "IT",
-            "AU",
-            "CA",
-            "DK",
-            "NZ"
-        ]
-    },
-    {
-        "alias": "vietnamese",
-        "title": "Vietnamese",
-        "parents": [
-            "restaurants"
-        ]
-    },
-    {
-        "alias": "waffles",
-        "title": "Waffles",
-        "parents": [
-            "restaurants"
-        ]
-    },
-    {
-        "alias": "westernjapanese",
-        "title": "Western Style Japanese Food",
-        "parents": [
-            "japanese"
-        ],
-        "country_whitelist": [
-            "SG",
-            "TW",
-            "JP"
-        ]
-    },
-    {
-        "alias": "whiskeybars",
-        "title": "Whiskey Bars",
-        "parents": [
-            "bars"
-        ],
-        "country_blacklist": [
-            "IT"
-        ]
-    },
-    {
-        "alias": "wine_bars",
-        "title": "Wine Bars",
-        "parents": [
-            "bars"
-        ]
-    },
-    {
-        "alias": "wok",
-        "title": "Wok",
-        "parents": [
-            "restaurants"
-        ],
-        "country_blacklist": [
-            "GB",
-            "PL",
-            "IE",
-            "SG",
-            "IT",
-            "US",
-            "AU",
-            "AR",
-            "TW",
-            "HK",
-            "CA",
-            "BR",
-            "JP",
-            "TR",
-            "NZ"
-        ]
-    },
-    {
-        "alias": "wraps",
-        "title": "Wraps",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "CZ",
-            "NO",
-            "PT",
-            "DK",
-            "SE",
-            "US",
-            "TR"
-        ]
-    },
-    {
-        "alias": "yakiniku",
-        "title": "Yakiniku",
-        "parents": [
-            "japanese"
-        ],
-        "country_whitelist": [
-            "SG",
-            "TW",
-            "JP"
-        ]
-    },
-    {
-        "alias": "yakitori",
-        "title": "Yakitori",
-        "parents": [
-            "japanese"
-        ],
-        "country_whitelist": [
-            "SG",
-            "TW",
-            "JP"
-        ]
-    },
-    {
-        "alias": "yucatan",
-        "title": "Yucatan",
-        "parents": [
-            "mexican"
-        ],
-        "country_whitelist": [
-            "MX"
-        ]
-    },
-    {
-        "alias": "yugoslav",
-        "title": "Yugoslav",
-        "parents": [
-            "restaurants"
-        ],
-        "country_whitelist": [
-            "PT",
-            "BE",
-            "IT",
-            "SE",
-            "AU",
-            "FR"
-        ]
-    },
-    {
-        "alias": "zapiekanka",
-        "title": "Zapiekanka",
-        "parents": [
-            "food"
-        ],
-        "country_whitelist": [
-            "PL"
-        ]
-    }
+  {
+    "alias": "abruzzese",
+    "title": "Abruzzese",
+    "parents": ["italian"],
+    "country_whitelist": ["IT"]
+  },
+  {
+    "alias": "acaibowls",
+    "title": "Acai Bowls",
+    "parents": ["food"],
+    "country_blacklist": ["PL", "MX", "IT", "CL", "TR", "AR"]
+  },
+  {
+    "alias": "afghani",
+    "title": "Afghan",
+    "parents": ["restaurants"],
+    "country_blacklist": ["TR", "MX"]
+  },
+  {
+    "alias": "african",
+    "title": "African",
+    "parents": ["restaurants"],
+    "country_blacklist": ["TR"]
+  },
+  {
+    "alias": "alentejo",
+    "title": "Alentejo",
+    "parents": ["portuguese"],
+    "country_whitelist": ["PT"]
+  },
+  {
+    "alias": "algarve",
+    "title": "Algarve",
+    "parents": ["portuguese"],
+    "country_whitelist": ["PT"]
+  },
+  {
+    "alias": "alsatian",
+    "title": "Alsatian",
+    "parents": ["french"],
+    "country_whitelist": ["DE", "FR"]
+  },
+  {
+    "alias": "altoatesine",
+    "title": "Altoatesine",
+    "parents": ["italian"],
+    "country_whitelist": ["IT"]
+  },
+  {
+    "alias": "andalusian",
+    "title": "Andalusian",
+    "parents": ["restaurants"],
+    "country_whitelist": ["IT", "ES"]
+  },
+  {
+    "alias": "apulian",
+    "title": "Apulian",
+    "parents": ["italian"],
+    "country_whitelist": ["IT", "FR"]
+  },
+  {
+    "alias": "arabian",
+    "title": "Arabian",
+    "parents": ["restaurants"],
+    "country_blacklist": ["DK"]
+  },
+  {
+    "alias": "arabpizza",
+    "title": "Arab Pizza",
+    "parents": ["arabian"],
+    "country_whitelist": ["BR"]
+  },
+  {
+    "alias": "argentine",
+    "title": "Argentine",
+    "parents": ["restaurants"],
+    "country_blacklist": ["FI"]
+  },
+  {
+    "alias": "armenian",
+    "title": "Armenian",
+    "parents": ["restaurants"],
+    "country_whitelist": [
+      "GB",
+      "CZ",
+      "PL",
+      "IT",
+      "US",
+      "AR",
+      "FR",
+      "BE",
+      "ES",
+      "TR"
+    ]
+  },
+  {
+    "alias": "arroceria_paella",
+    "title": "Arroceria / Paella",
+    "parents": ["spanish"],
+    "country_whitelist": ["ES"]
+  },
+  {
+    "alias": "asianfusion",
+    "title": "Asian Fusion",
+    "parents": ["restaurants"]
+  },
+  {
+    "alias": "asturian",
+    "title": "Asturian",
+    "parents": ["restaurants"],
+    "country_whitelist": ["ES"]
+  },
+  {
+    "alias": "australian",
+    "title": "Australian",
+    "parents": ["restaurants"]
+  },
+  {
+    "alias": "austrian",
+    "title": "Austrian",
+    "parents": ["restaurants"],
+    "country_blacklist": ["DK", "ES"]
+  },
+  {
+    "alias": "azores",
+    "title": "Azores",
+    "parents": ["portuguese"],
+    "country_whitelist": ["PT"]
+  },
+  {
+    "alias": "baden",
+    "title": "Baden",
+    "parents": ["german"],
+    "country_whitelist": ["DE"]
+  },
+  {
+    "alias": "bagels",
+    "title": "Bagels",
+    "parents": ["food"],
+    "country_blacklist": ["AU", "ES"]
+  },
+  {
+    "alias": "baguettes",
+    "title": "Baguettes",
+    "parents": ["restaurants"],
+    "country_whitelist": ["CZ", "NO", "MX", "IT", "SE", "DE", "PT", "TR"]
+  },
+  {
+    "alias": "bakeries",
+    "title": "Bakeries",
+    "parents": ["food"]
+  },
+  {
+    "alias": "bangladeshi",
+    "title": "Bangladeshi",
+    "parents": ["restaurants"],
+    "country_blacklist": ["PT", "MX", "DK", "ES", "TR"]
+  },
+  {
+    "alias": "bars",
+    "title": "Bars",
+    "parents": ["nightlife"]
+  },
+  {
+    "alias": "basque",
+    "title": "Basque",
+    "parents": ["restaurants"],
+    "country_blacklist": ["CZ", "PT", "SG", "TR", "DK", "AU"]
+  },
+  {
+    "alias": "bavarian",
+    "title": "Bavarian",
+    "parents": ["restaurants"],
+    "country_whitelist": ["DE", "AT", "CH"]
+  },
+  {
+    "alias": "bbq",
+    "title": "Barbeque",
+    "parents": ["restaurants"],
+    "country_blacklist": ["AU", "BR"]
+  },
+  {
+    "alias": "beer_and_wine",
+    "title": "Beer, Wine & Spirits",
+    "parents": ["food"]
+  },
+  {
+    "alias": "beerbar",
+    "title": "Beer Bar",
+    "parents": ["bars"]
+  },
+  {
+    "alias": "beergarden",
+    "title": "Beer Garden",
+    "parents": ["restaurants"],
+    "country_whitelist": ["DE", "CZ", "AT", "CH"]
+  },
+  {
+    "alias": "beergardens",
+    "title": "Beer Gardens",
+    "parents": ["nightlife"],
+    "country_whitelist": [
+      "GB",
+      "CZ",
+      "NO",
+      "PL",
+      "MX",
+      "IT",
+      "SE",
+      "US",
+      "AU",
+      "FR",
+      "DK",
+      "JP",
+      "IE"
+    ]
+  },
+  {
+    "alias": "beerhall",
+    "title": "Beer Hall",
+    "parents": ["restaurants"],
+    "country_whitelist": ["DE", "AT", "CH"]
+  },
+  {
+    "alias": "beira",
+    "title": "Beira",
+    "parents": ["portuguese"],
+    "country_whitelist": ["PT"]
+  },
+  {
+    "alias": "beisl",
+    "title": "Beisl",
+    "parents": ["restaurants"],
+    "country_whitelist": ["AT"]
+  },
+  {
+    "alias": "belgian",
+    "title": "Belgian",
+    "parents": ["restaurants"]
+  },
+  {
+    "alias": "bento",
+    "title": "Bento",
+    "parents": ["food"],
+    "country_whitelist": ["JP"]
+  },
+  {
+    "alias": "berrichon",
+    "title": "Berrichon",
+    "parents": ["french"],
+    "country_whitelist": ["FR"]
+  },
+  {
+    "alias": "beverage_stores",
+    "title": "Beverage Store",
+    "parents": ["food"],
+    "country_whitelist": [
+      "IT",
+      "CL",
+      "NL",
+      "US",
+      "AU",
+      "AT",
+      "DE",
+      "PT",
+      "BE",
+      "CH",
+      "ES",
+      "TR"
+    ]
+  },
+  {
+    "alias": "bistros",
+    "title": "Bistros",
+    "parents": ["restaurants"],
+    "country_blacklist": ["US"]
+  },
+  {
+    "alias": "blacksea",
+    "title": "Black Sea",
+    "parents": ["restaurants"],
+    "country_whitelist": ["TR"]
+  },
+  {
+    "alias": "blowfish",
+    "title": "Blowfish",
+    "parents": ["japanese"],
+    "country_whitelist": ["JP"]
+  },
+  {
+    "alias": "bourguignon",
+    "title": "Bourguignon",
+    "parents": ["french"],
+    "country_whitelist": ["FR"]
+  },
+  {
+    "alias": "brasseries",
+    "title": "Brasseries",
+    "parents": ["restaurants"],
+    "country_blacklist": ["AR", "MX"]
+  },
+  {
+    "alias": "brazilian",
+    "title": "Brazilian",
+    "parents": ["restaurants"]
+  },
+  {
+    "alias": "brazilianempanadas",
+    "title": "Brazilian Empanadas",
+    "parents": ["brazilian"],
+    "country_whitelist": ["BR"]
+  },
+  {
+    "alias": "breakfast_brunch",
+    "title": "Breakfast & Brunch",
+    "parents": ["restaurants"]
+  },
+  {
+    "alias": "breweries",
+    "title": "Breweries",
+    "parents": ["food"]
+  },
+  {
+    "alias": "british",
+    "title": "British",
+    "parents": ["restaurants"],
+    "country_blacklist": ["FI"]
+  },
+  {
+    "alias": "buffets",
+    "title": "Buffets",
+    "parents": ["restaurants"]
+  },
+  {
+    "alias": "bulgarian",
+    "title": "Bulgarian",
+    "parents": ["restaurants"],
+    "country_blacklist": ["NO", "SG", "NL", "CA", "BR", "DK", "TR", "NZ"]
+  },
+  {
+    "alias": "burgers",
+    "title": "Burgers",
+    "parents": ["restaurants"]
+  },
+  {
+    "alias": "burmese",
+    "title": "Burmese",
+    "parents": ["restaurants"],
+    "country_blacklist": ["CZ", "PT", "DK", "ES", "FI", "TR"]
+  },
+  {
+    "alias": "cafes",
+    "title": "Cafes",
+    "parents": ["restaurants"],
+    "country_blacklist": ["AR", "MX", "ES", "FI"]
+  },
+  {
+    "alias": "cafeteria",
+    "title": "Cafeteria",
+    "parents": ["restaurants"],
+    "country_blacklist": ["CA", "IE", "SG", "BR", "SE", "FR", "NZ"]
+  },
+  {
+    "alias": "cajun",
+    "title": "Cajun/Creole",
+    "parents": ["restaurants"],
+    "country_blacklist": ["AU", "ES", "PT", "SG"]
+  },
+  {
+    "alias": "cakeshop",
+    "title": "Patisserie/Cake Shop",
+    "parents": ["food"]
+  },
+  {
+    "alias": "calabrian",
+    "title": "Calabrian",
+    "parents": ["italian"],
+    "country_whitelist": ["US", "IT", "FR"]
+  },
+  {
+    "alias": "cambodian",
+    "title": "Cambodian",
+    "parents": ["restaurants"],
+    "country_blacklist": ["CZ", "PT", "DK", "ES", "FI", "TR"]
+  },
+  {
+    "alias": "canteen",
+    "title": "Canteen",
+    "parents": ["restaurants"],
+    "country_whitelist": [
+      "CZ",
+      "NO",
+      "PL",
+      "IT",
+      "NL",
+      "FI",
+      "AT",
+      "DE",
+      "BE",
+      "DK",
+      "CH",
+      "JP"
+    ]
+  },
+  {
+    "alias": "cantonese",
+    "title": "Cantonese",
+    "parents": ["chinese"],
+    "country_whitelist": [
+      "GB",
+      "MY",
+      "TW",
+      "HK",
+      "SG",
+      "IT",
+      "NL",
+      "SE",
+      "US",
+      "AU",
+      "AR",
+      "FR",
+      "CA",
+      "BE",
+      "JP",
+      "NZ"
+    ]
+  },
+  {
+    "alias": "caribbean",
+    "title": "Caribbean",
+    "parents": ["restaurants"],
+    "country_blacklist": ["TR", "PT", "FI"]
+  },
+  {
+    "alias": "catalan",
+    "title": "Catalan",
+    "parents": ["restaurants"],
+    "country_whitelist": ["MX", "IT", "CL", "US", "AR", "FR", "PT", "ES", "TR"]
+  },
+  {
+    "alias": "centralbrazilian",
+    "title": "Central Brazilian",
+    "parents": ["brazilian"],
+    "country_whitelist": ["BR"]
+  },
+  {
+    "alias": "cheekufta",
+    "title": "Chee Kufta",
+    "parents": ["turkish"],
+    "country_whitelist": ["TR", "DE"]
+  },
+  {
+    "alias": "cheese",
+    "title": "Cheese Shops",
+    "parents": ["gourmet"]
+  },
+  {
+    "alias": "cheesesteaks",
+    "title": "Cheesesteaks",
+    "parents": ["restaurants"],
+    "country_whitelist": ["GB", "CA", "PL", "NL", "US", "AU", "IE"]
+  },
+  {
+    "alias": "chicken_wings",
+    "title": "Chicken Wings",
+    "parents": ["restaurants"],
+    "country_blacklist": [
+      "NO",
+      "IT",
+      "CL",
+      "NL",
+      "FI",
+      "FR",
+      "PT",
+      "BE",
+      "DK",
+      "CH",
+      "ES",
+      "JP"
+    ]
+  },
+  {
+    "alias": "chickenshop",
+    "title": "Chicken Shop",
+    "parents": ["restaurants"],
+    "country_blacklist": ["CZ"]
+  },
+  {
+    "alias": "chilean",
+    "title": "Chilean",
+    "parents": ["restaurants"],
+    "country_whitelist": ["BR", "FI", "FR", "CL"]
+  },
+  {
+    "alias": "chimneycakes",
+    "title": "Chimney Cakes",
+    "parents": ["food"],
+    "country_whitelist": ["US", "CZ", "PL", "FR"]
+  },
+  {
+    "alias": "chinese",
+    "title": "Chinese",
+    "parents": ["restaurants"]
+  },
+  {
+    "alias": "chocolate",
+    "title": "Chocolatiers & Shops",
+    "parents": ["gourmet"]
+  },
+  {
+    "alias": "choirs",
+    "title": "Choirs",
+    "parents": ["arts"],
+    "country_blacklist": ["CZ", "PL", "SG", "NL", "US", "CA", "BE", "BR", "NZ"]
+  },
+  {
+    "alias": "churros",
+    "title": "Churros",
+    "parents": ["food"],
+    "country_whitelist": ["PT", "MX", "CL", "BR", "ES", "AR"]
+  },
+  {
+    "alias": "cideries",
+    "title": "Cideries",
+    "parents": ["food"],
+    "country_blacklist": ["NO", "IT", "NL", "FR", "BE", "DK", "JP", "TR"]
+  },
+  {
+    "alias": "cocktailbars",
+    "title": "Cocktail Bars",
+    "parents": ["bars"]
+  },
+  {
+    "alias": "coffee",
+    "title": "Coffee & Tea",
+    "parents": ["food"]
+  },
+  {
+    "alias": "coffeeroasteries",
+    "title": "Coffee Roasteries",
+    "parents": ["food"]
+  },
+  {
+    "alias": "coffeeshops",
+    "title": "Coffeeshops",
+    "parents": ["nightlife"],
+    "country_whitelist": ["NL", "PT"]
+  },
+  {
+    "alias": "colombian",
+    "title": "Colombian",
+    "parents": ["latin"],
+    "country_whitelist": ["MX", "CL", "US", "FI", "AR", "FR", "CA", "BE", "ES"]
+  },
+  {
+    "alias": "comfortfood",
+    "title": "Comfort Food",
+    "parents": ["restaurants"],
+    "country_whitelist": ["CA", "MX", "CL", "US", "FI", "AR", "JP"]
+  },
+  {
+    "alias": "congee",
+    "title": "Congee",
+    "parents": ["chinese"],
+    "country_whitelist": ["TW", "HK", "MY", "SG"]
+  },
+  {
+    "alias": "conveyorsushi",
+    "title": "Conveyor Belt Sushi",
+    "parents": ["japanese"],
+    "country_whitelist": [
+      "PL",
+      "SG",
+      "IT",
+      "NL",
+      "SE",
+      "US",
+      "AT",
+      "TW",
+      "DE",
+      "HK",
+      "BE",
+      "CH",
+      "JP"
+    ]
+  },
+  {
+    "alias": "corsican",
+    "title": "Corsican",
+    "parents": ["restaurants"],
+    "country_whitelist": ["BE", "FR"]
+  },
+  {
+    "alias": "creperies",
+    "title": "Creperies",
+    "parents": ["restaurants"]
+  },
+  {
+    "alias": "cuban",
+    "title": "Cuban",
+    "parents": ["restaurants"],
+    "country_blacklist": ["TR", "DK", "SG"]
+  },
+  {
+    "alias": "cucinacampana",
+    "title": "Cucina campana",
+    "parents": ["italian"],
+    "country_whitelist": ["IT"]
+  },
+  {
+    "alias": "currysausage",
+    "title": "Curry Sausage",
+    "parents": ["restaurants"],
+    "country_whitelist": ["DE", "AT", "CH"]
+  },
+  {
+    "alias": "customcakes",
+    "title": "Custom Cakes",
+    "parents": ["food"],
+    "country_blacklist": ["DE", "AT", "CH", "FR"]
+  },
+  {
+    "alias": "cypriot",
+    "title": "Cypriot",
+    "parents": ["restaurants"],
+    "country_whitelist": ["DE", "AT", "CH"]
+  },
+  {
+    "alias": "czech",
+    "title": "Czech",
+    "parents": ["restaurants"],
+    "country_whitelist": [
+      "GB",
+      "CZ",
+      "NO",
+      "PL",
+      "IT",
+      "SE",
+      "US",
+      "FI",
+      "AU",
+      "FR",
+      "DE",
+      "CA",
+      "BE",
+      "DK",
+      "IE"
+    ]
+  },
+  {
+    "alias": "czechslovakian",
+    "title": "Czech/Slovakian",
+    "parents": ["restaurants"],
+    "country_whitelist": ["AR", "MX", "PT"]
+  },
+  {
+    "alias": "dagashi",
+    "title": "Dagashi",
+    "parents": ["gourmet"],
+    "country_whitelist": ["JP"]
+  },
+  {
+    "alias": "danish",
+    "title": "Danish",
+    "parents": ["restaurants"],
+    "country_whitelist": ["DK", "NO", "SE", "FR"]
+  },
+  {
+    "alias": "delis",
+    "title": "Delis",
+    "parents": ["restaurants"],
+    "country_blacklist": ["PT", "BE", "IT", "CL", "NL", "SE", "FR"]
+  },
+  {
+    "alias": "desserts",
+    "title": "Desserts",
+    "parents": ["food"]
+  },
+  {
+    "alias": "dimsum",
+    "title": "Dim Sum",
+    "parents": ["chinese"],
+    "country_blacklist": ["TR", "BR", "PT"]
+  },
+  {
+    "alias": "diners",
+    "title": "Diners",
+    "parents": ["restaurants"],
+    "country_blacklist": ["AU", "CZ", "SE", "FI"]
+  },
+  {
+    "alias": "dinnertheater",
+    "title": "Dinner Theater",
+    "parents": ["restaurants"],
+    "country_blacklist": ["BE", "IT", "NL", "JP", "FR"]
+  },
+  {
+    "alias": "divebars",
+    "title": "Dive Bars",
+    "parents": ["bars"],
+    "country_blacklist": ["CZ", "BE", "IT", "NL", "AU", "FR"]
+  },
+  {
+    "alias": "dominican",
+    "title": "Dominican",
+    "parents": ["caribbean"],
+    "country_whitelist": ["US"]
+  },
+  {
+    "alias": "donairs",
+    "title": "Donairs",
+    "parents": ["food"],
+    "country_whitelist": ["CZ", "CA", "PL", "BE", "DK", "TR", "FR"]
+  },
+  {
+    "alias": "donburi",
+    "title": "Donburi",
+    "parents": ["japanese"],
+    "country_whitelist": ["HK", "TW", "JP"]
+  },
+  {
+    "alias": "donuts",
+    "title": "Donuts",
+    "parents": ["food"],
+    "country_blacklist": ["ES"]
+  },
+  {
+    "alias": "drivethrubars",
+    "title": "Drive-Thru Bars",
+    "parents": ["bars"],
+    "country_whitelist": ["US"]
+  },
+  {
+    "alias": "dumplings",
+    "title": "Dumplings",
+    "parents": ["restaurants"],
+    "country_whitelist": ["JP"]
+  },
+  {
+    "alias": "eastern_european",
+    "title": "Eastern European",
+    "parents": ["restaurants"],
+    "country_whitelist": ["CZ", "NO", "DK", "AU", "FR"]
+  },
+  {
+    "alias": "easterngerman",
+    "title": "Eastern German",
+    "parents": ["german"],
+    "country_whitelist": ["DE"]
+  },
+  {
+    "alias": "easternmexican",
+    "title": "Eastern Mexican",
+    "parents": ["mexican"],
+    "country_whitelist": ["MX"]
+  },
+  {
+    "alias": "egyptian",
+    "title": "Egyptian",
+    "parents": ["mideastern"],
+    "country_whitelist": ["CA", "BE", "IT", "US", "FR"]
+  },
+  {
+    "alias": "eltern_cafes",
+    "title": "Parent Cafes",
+    "parents": ["restaurants", "food"],
+    "country_whitelist": ["DE", "AT", "CH"]
+  },
+  {
+    "alias": "emilian",
+    "title": "Emilian",
+    "parents": ["italian"],
+    "country_whitelist": ["IT"]
+  },
+  {
+    "alias": "empanadas",
+    "title": "Empanadas",
+    "parents": ["food"],
+    "country_whitelist": ["AR", "ES", "US", "CL"]
+  },
+  {
+    "alias": "ethiopian",
+    "title": "Ethiopian",
+    "parents": ["restaurants"],
+    "country_blacklist": ["TR", "CZ", "MX", "SG"]
+  },
+  {
+    "alias": "falafel",
+    "title": "Falafel",
+    "parents": ["mediterranean"],
+    "country_blacklist": ["AR", "MX", "PT"]
+  },
+  {
+    "alias": "filipino",
+    "title": "Filipino",
+    "parents": ["restaurants"],
+    "country_blacklist": ["TR", "DK", "CZ", "FI"]
+  },
+  {
+    "alias": "fischbroetchen",
+    "title": "Fischbroetchen",
+    "parents": ["restaurants"],
+    "country_whitelist": ["DE"]
+  },
+  {
+    "alias": "fishnchips",
+    "title": "Fish & Chips",
+    "parents": ["restaurants"],
+    "country_blacklist": ["BR", "PT"]
+  },
+  {
+    "alias": "flemish",
+    "title": "Flemish",
+    "parents": ["belgian"],
+    "country_whitelist": ["FR"]
+  },
+  {
+    "alias": "fondue",
+    "title": "Fondue",
+    "parents": ["restaurants"],
+    "country_blacklist": ["DK", "CZ", "ES"]
+  },
+  {
+    "alias": "food",
+    "title": "Food",
+    "parents": []
+  },
+  {
+    "alias": "food_court",
+    "title": "Food Court",
+    "parents": ["restaurants"],
+    "country_blacklist": ["PL", "MX", "CL", "FI", "AR", "TW", "FR", "ES", "TR"]
+  },
+  {
+    "alias": "franconian",
+    "title": "Franconian",
+    "parents": ["german"],
+    "country_whitelist": ["DE"]
+  },
+  {
+    "alias": "freiduria",
+    "title": "Freiduria",
+    "parents": ["restaurants"],
+    "country_whitelist": ["AR", "MX", "ES", "CL"]
+  },
+  {
+    "alias": "french",
+    "title": "French",
+    "parents": ["restaurants"]
+  },
+  {
+    "alias": "friterie",
+    "title": "Friterie",
+    "parents": ["food"],
+    "country_whitelist": ["PL", "BE", "IT", "NL", "AU", "FR"]
+  },
+  {
+    "alias": "friulan",
+    "title": "Friulan",
+    "parents": ["italian"],
+    "country_whitelist": ["IT"]
+  },
+  {
+    "alias": "fuzhou",
+    "title": "Fuzhou",
+    "parents": ["chinese"],
+    "country_whitelist": ["TW", "HK", "MY", "SG"]
+  },
+  {
+    "alias": "galician",
+    "title": "Galician",
+    "parents": ["restaurants"],
+    "country_whitelist": ["ES", "PT"]
+  },
+  {
+    "alias": "gamemeat",
+    "title": "Game Meat",
+    "parents": ["restaurants"],
+    "country_blacklist": [
+      "MX",
+      "CL",
+      "MY",
+      "FI",
+      "PH",
+      "AR",
+      "TW",
+      "HK",
+      "CA",
+      "PT",
+      "BR",
+      "JP",
+      "TR"
+    ]
+  },
+  {
+    "alias": "gastropubs",
+    "title": "Gastropubs",
+    "parents": ["restaurants"]
+  },
+  {
+    "alias": "gaybars",
+    "title": "Gay Bars",
+    "parents": ["bars"]
+  },
+  {
+    "alias": "gelato",
+    "title": "Gelato",
+    "parents": ["food"],
+    "country_whitelist": [
+      "CZ",
+      "NO",
+      "PL",
+      "SG",
+      "IT",
+      "SE",
+      "US",
+      "PH",
+      "AU",
+      "PT",
+      "DK"
+    ]
+  },
+  {
+    "alias": "georgian",
+    "title": "Georgian",
+    "parents": ["restaurants"],
+    "country_whitelist": ["GB", "CZ", "PL", "US", "FI", "AT", "DE", "CH"]
+  },
+  {
+    "alias": "german",
+    "title": "German",
+    "parents": ["restaurants"]
+  },
+  {
+    "alias": "giblets",
+    "title": "Giblets",
+    "parents": ["restaurants"],
+    "country_whitelist": ["TR"]
+  },
+  {
+    "alias": "gozleme",
+    "title": "Gozleme",
+    "parents": ["turkish"],
+    "country_whitelist": ["TR"]
+  },
+  {
+    "alias": "greek",
+    "title": "Greek",
+    "parents": ["restaurants"]
+  },
+  {
+    "alias": "guamanian",
+    "title": "Guamanian",
+    "parents": ["restaurants"],
+    "country_blacklist": ["PL", "MX", "CL", "JP", "TR", "AR", "FR"]
+  },
+  {
+    "alias": "gyudon",
+    "title": "Gyudon",
+    "parents": ["donburi"],
+    "country_whitelist": ["JP"]
+  },
+  {
+    "alias": "hainan",
+    "title": "Hainan",
+    "parents": ["chinese"],
+    "country_whitelist": ["HK", "SG", "MY", "US", "PH"]
+  },
+  {
+    "alias": "haitian",
+    "title": "Haitian",
+    "parents": ["caribbean"],
+    "country_whitelist": ["CA", "US"]
+  },
+  {
+    "alias": "hakka",
+    "title": "Hakka",
+    "parents": ["chinese"],
+    "country_whitelist": ["HK", "CA", "SG", "MY", "PH", "TW"]
+  },
+  {
+    "alias": "halal",
+    "title": "Halal",
+    "parents": ["restaurants"],
+    "country_blacklist": ["TR", "PT"]
+  },
+  {
+    "alias": "handrolls",
+    "title": "Hand Rolls",
+    "parents": ["japanese"],
+    "country_whitelist": ["BR", "TW"]
+  },
+  {
+    "alias": "hawaiian",
+    "title": "Hawaiian",
+    "parents": ["restaurants"],
+    "country_blacklist": ["CZ", "PT", "TR", "DK", "AU"]
+  },
+  {
+    "alias": "henghwa",
+    "title": "Henghwa",
+    "parents": ["chinese"],
+    "country_whitelist": ["TW", "HK", "MY", "SG"]
+  },
+  {
+    "alias": "hessian",
+    "title": "Hessian",
+    "parents": ["german"],
+    "country_whitelist": ["DE"]
+  },
+  {
+    "alias": "heuriger",
+    "title": "Heuriger",
+    "parents": ["restaurants"],
+    "country_whitelist": ["AT"]
+  },
+  {
+    "alias": "himalayan",
+    "title": "Himalayan/Nepalese",
+    "parents": ["restaurants"]
+  },
+  {
+    "alias": "hkcafe",
+    "title": "Hong Kong Style Cafe",
+    "parents": ["restaurants"],
+    "country_whitelist": ["HK", "CA", "TW", "US"]
+  },
+  {
+    "alias": "hokkien",
+    "title": "Hokkien",
+    "parents": ["chinese"],
+    "country_whitelist": ["TW", "HK", "MY", "SG"]
+  },
+  {
+    "alias": "homemadefood",
+    "title": "Homemade Food",
+    "parents": ["turkish"],
+    "country_whitelist": ["TR"]
+  },
+  {
+    "alias": "honduran",
+    "title": "Honduran",
+    "parents": ["restaurants"],
+    "country_blacklist": ["TR", "JP"]
+  },
+  {
+    "alias": "horumon",
+    "title": "Horumon",
+    "parents": ["japanese"],
+    "country_whitelist": ["TW", "JP"]
+  },
+  {
+    "alias": "hotdog",
+    "title": "Hot Dogs",
+    "parents": ["restaurants"]
+  },
+  {
+    "alias": "hotdogs",
+    "title": "Fast Food",
+    "parents": ["restaurants"]
+  },
+  {
+    "alias": "hotpot",
+    "title": "Hot Pot",
+    "parents": ["restaurants"],
+    "country_whitelist": [
+      "SG",
+      "MY",
+      "SE",
+      "US",
+      "PH",
+      "TW",
+      "FR",
+      "HK",
+      "CA",
+      "BR",
+      "JP"
+    ]
+  },
+  {
+    "alias": "hunan",
+    "title": "Hunan",
+    "parents": ["chinese"],
+    "country_whitelist": ["HK", "SG", "MY", "TW", "FR"]
+  },
+  {
+    "alias": "hungarian",
+    "title": "Hungarian",
+    "parents": ["restaurants"]
+  },
+  {
+    "alias": "iberian",
+    "title": "Iberian",
+    "parents": ["restaurants"],
+    "country_whitelist": ["US", "CA", "PT"]
+  },
+  {
+    "alias": "icecream",
+    "title": "Ice Cream & Frozen Yogurt",
+    "parents": ["food"]
+  },
+  {
+    "alias": "indonesian",
+    "title": "Indonesian",
+    "parents": ["restaurants"],
+    "country_blacklist": ["MX", "ES"]
+  },
+  {
+    "alias": "international",
+    "title": "International",
+    "parents": ["restaurants"],
+    "country_blacklist": ["TR", "IT", "MY", "US", "FI", "PH"]
+  },
+  {
+    "alias": "irish",
+    "title": "Irish",
+    "parents": ["restaurants"]
+  },
+  {
+    "alias": "irish_pubs",
+    "title": "Irish Pub",
+    "parents": ["bars"]
+  },
+  {
+    "alias": "island_pub",
+    "title": "Island Pub",
+    "parents": ["restaurants"],
+    "country_whitelist": ["SE"]
+  },
+  {
+    "alias": "israeli",
+    "title": "Israeli",
+    "parents": ["restaurants"],
+    "country_whitelist": ["DE", "CZ", "AT", "CH"]
+  },
+  {
+    "alias": "italian",
+    "title": "Italian",
+    "parents": ["restaurants"]
+  },
+  {
+    "alias": "izakaya",
+    "title": "Izakaya",
+    "parents": ["japanese"],
+    "country_whitelist": ["SG", "MX", "US", "AU", "TW", "HK", "BR", "JP", "NZ"]
+  },
+  {
+    "alias": "jaliscan",
+    "title": "Jaliscan",
+    "parents": ["mexican"],
+    "country_whitelist": ["MX"]
+  },
+  {
+    "alias": "japacurry",
+    "title": "Japanese Curry",
+    "parents": ["japanese"],
+    "country_whitelist": ["HK", "SG", "US", "JP", "TW"]
+  },
+  {
+    "alias": "japanese",
+    "title": "Japanese",
+    "parents": ["restaurants"]
+  },
+  {
+    "alias": "jewish",
+    "title": "Jewish",
+    "parents": ["restaurants"],
+    "country_whitelist": ["DE", "IT", "PL"]
+  },
+  {
+    "alias": "jpsweets",
+    "title": "Japanese Sweets",
+    "parents": ["food"],
+    "country_whitelist": ["JP"]
+  },
+  {
+    "alias": "kaiseki",
+    "title": "Kaiseki",
+    "parents": ["japanese"],
+    "country_whitelist": ["TW", "JP"]
+  },
+  {
+    "alias": "kebab",
+    "title": "Kebab",
+    "parents": ["restaurants"]
+  },
+  {
+    "alias": "kombucha",
+    "title": "Kombucha",
+    "parents": ["food"],
+    "country_whitelist": ["US"]
+  },
+  {
+    "alias": "kopitiam",
+    "title": "Kopitiam",
+    "parents": ["restaurants"],
+    "country_whitelist": ["MY", "SG"]
+  },
+  {
+    "alias": "korean",
+    "title": "Korean",
+    "parents": ["restaurants"]
+  },
+  {
+    "alias": "kosher",
+    "title": "Kosher",
+    "parents": ["restaurants"],
+    "country_blacklist": ["TR", "PT"]
+  },
+  {
+    "alias": "kurdish",
+    "title": "Kurdish",
+    "parents": ["restaurants"],
+    "country_whitelist": ["NO", "SE"]
+  },
+  {
+    "alias": "kushikatsu",
+    "title": "Kushikatsu",
+    "parents": ["japanese"],
+    "country_whitelist": ["JP"]
+  },
+  {
+    "alias": "lahmacun",
+    "title": "Lahmacun",
+    "parents": ["turkish"],
+    "country_whitelist": ["TR"]
+  },
+  {
+    "alias": "laos",
+    "title": "Laos",
+    "parents": ["restaurants"],
+    "country_whitelist": ["AU"]
+  },
+  {
+    "alias": "laotian",
+    "title": "Laotian",
+    "parents": ["restaurants"],
+    "country_blacklist": ["CZ"]
+  },
+  {
+    "alias": "latin",
+    "title": "Latin American",
+    "parents": ["restaurants"]
+  },
+  {
+    "alias": "lebanese",
+    "title": "Lebanese",
+    "parents": ["mideastern"],
+    "country_blacklist": ["AR", "HK", "JP"]
+  },
+  {
+    "alias": "ligurian",
+    "title": "Ligurian",
+    "parents": ["italian"],
+    "country_whitelist": ["IT", "FR"]
+  },
+  {
+    "alias": "lumbard",
+    "title": "Lumbard",
+    "parents": ["italian"],
+    "country_whitelist": ["IT"]
+  },
+  {
+    "alias": "lyonnais",
+    "title": "Lyonnais",
+    "parents": ["restaurants"],
+    "country_whitelist": ["BE", "FR"]
+  },
+  {
+    "alias": "macarons",
+    "title": "Macarons",
+    "parents": ["gourmet"],
+    "country_blacklist": ["PH", "IT", "MY"]
+  },
+  {
+    "alias": "madeira",
+    "title": "Madeira",
+    "parents": ["portuguese"],
+    "country_whitelist": ["PT"]
+  },
+  {
+    "alias": "malaysian",
+    "title": "Malaysian",
+    "parents": ["restaurants"],
+    "country_blacklist": ["TR", "CZ", "ES", "PT"]
+  },
+  {
+    "alias": "mamak",
+    "title": "Mamak",
+    "parents": ["malaysian"],
+    "country_whitelist": ["AU", "MY"]
+  },
+  {
+    "alias": "mauritius",
+    "title": "Mauritius",
+    "parents": ["french"],
+    "country_blacklist": [
+      "NO",
+      "PL",
+      "MX",
+      "CL",
+      "AU",
+      "AR",
+      "AT",
+      "DE",
+      "BR",
+      "DK",
+      "CH",
+      "JP",
+      "TR",
+      "NZ"
+    ]
+  },
+  {
+    "alias": "meatballs",
+    "title": "Meatballs",
+    "parents": ["restaurants"],
+    "country_whitelist": ["TR", "BE", "NL", "FR"]
+  },
+  {
+    "alias": "mediterranean",
+    "title": "Mediterranean",
+    "parents": ["restaurants"]
+  },
+  {
+    "alias": "mexican",
+    "title": "Mexican",
+    "parents": ["restaurants"]
+  },
+  {
+    "alias": "mideastern",
+    "title": "Middle Eastern",
+    "parents": ["restaurants"],
+    "country_blacklist": ["BR"]
+  },
+  {
+    "alias": "milkbars",
+    "title": "Milk Bars",
+    "parents": ["restaurants"],
+    "country_whitelist": ["AU", "PL"]
+  },
+  {
+    "alias": "milkshakebars",
+    "title": "Milkshake Bars",
+    "parents": ["food"],
+    "country_whitelist": ["GB"]
+  },
+  {
+    "alias": "minho",
+    "title": "Minho",
+    "parents": ["portuguese"],
+    "country_whitelist": ["PT"]
+  },
+  {
+    "alias": "modern_australian",
+    "title": "Modern Australian",
+    "parents": ["restaurants"],
+    "country_whitelist": ["AU"]
+  },
+  {
+    "alias": "modern_european",
+    "title": "Modern European",
+    "parents": ["restaurants"]
+  },
+  {
+    "alias": "mongolian",
+    "title": "Mongolian",
+    "parents": ["restaurants"],
+    "country_blacklist": ["TR", "ES", "PT", "FI"]
+  },
+  {
+    "alias": "moroccan",
+    "title": "Moroccan",
+    "parents": ["restaurants"],
+    "country_blacklist": ["TR"]
+  },
+  {
+    "alias": "napoletana",
+    "title": "Napoletana",
+    "parents": ["italian"],
+    "country_whitelist": ["CZ", "IT", "FR"]
+  },
+  {
+    "alias": "nasilemak",
+    "title": "Nasi Lemak",
+    "parents": ["food"],
+    "country_whitelist": ["MY", "SG"]
+  },
+  {
+    "alias": "newamerican",
+    "title": "American (New)",
+    "parents": ["restaurants"],
+    "country_whitelist": ["GB", "NO", "DK", "SE", "US", "IE"]
+  },
+  {
+    "alias": "newcanadian",
+    "title": "Canadian (New)",
+    "parents": ["restaurants"],
+    "country_whitelist": ["CA"]
+  },
+  {
+    "alias": "newmexican",
+    "title": "New Mexican Cuisine",
+    "parents": ["restaurants"],
+    "country_whitelist": ["US"]
+  },
+  {
+    "alias": "newzealand",
+    "title": "New Zealand",
+    "parents": ["restaurants"],
+    "country_whitelist": ["NZ"]
+  },
+  {
+    "alias": "nicaraguan",
+    "title": "Nicaraguan",
+    "parents": ["restaurants"],
+    "country_blacklist": ["AR", "CL"]
+  },
+  {
+    "alias": "nicois",
+    "title": "Nicoise",
+    "parents": ["french"],
+    "country_whitelist": ["FR"]
+  },
+  {
+    "alias": "nightfood",
+    "title": "Night Food",
+    "parents": ["restaurants"],
+    "country_whitelist": ["NO", "PL", "DK", "SE", "TR"]
+  },
+  {
+    "alias": "nikkei",
+    "title": "Nikkei",
+    "parents": ["restaurants"],
+    "country_whitelist": ["MX", "CL", "BR", "ES", "AR"]
+  },
+  {
+    "alias": "noodles",
+    "title": "Noodles",
+    "parents": ["restaurants"],
+    "country_blacklist": ["DE", "AT", "CH", "FR"]
+  },
+  {
+    "alias": "norcinerie",
+    "title": "Norcinerie",
+    "parents": ["restaurants"],
+    "country_whitelist": ["IT"]
+  },
+  {
+    "alias": "northeasternbrazilian",
+    "title": "Northeastern Brazilian",
+    "parents": ["brazilian"],
+    "country_whitelist": ["BR"]
+  },
+  {
+    "alias": "northernbrazilian",
+    "title": "Northern Brazilian",
+    "parents": ["brazilian"],
+    "country_whitelist": ["BR"]
+  },
+  {
+    "alias": "northerngerman",
+    "title": "Northern German",
+    "parents": ["german"],
+    "country_whitelist": ["DE"]
+  },
+  {
+    "alias": "northernmexican",
+    "title": "Northern Mexican",
+    "parents": ["mexican"],
+    "country_whitelist": ["MX"]
+  },
+  {
+    "alias": "norwegian",
+    "title": "Traditional Norwegian",
+    "parents": ["restaurants"],
+    "country_whitelist": ["NO", "FR"]
+  },
+  {
+    "alias": "nyonya",
+    "title": "Nyonya",
+    "parents": ["malaysian"],
+    "country_whitelist": ["AU", "MY"]
+  },
+  {
+    "alias": "oaxacan",
+    "title": "Oaxacan",
+    "parents": ["mexican"],
+    "country_whitelist": ["MX"]
+  },
+  {
+    "alias": "oden",
+    "title": "Oden",
+    "parents": ["japanese"],
+    "country_whitelist": ["TW", "JP"]
+  },
+  {
+    "alias": "okinawan",
+    "title": "Okinawan",
+    "parents": ["japanese"],
+    "country_whitelist": ["JP"]
+  },
+  {
+    "alias": "okonomiyaki",
+    "title": "Okonomiyaki",
+    "parents": ["japanese"],
+    "country_whitelist": ["TW", "JP"]
+  },
+  {
+    "alias": "onigiri",
+    "title": "Onigiri",
+    "parents": ["japanese"],
+    "country_whitelist": ["TW", "JP"]
+  },
+  {
+    "alias": "opensandwiches",
+    "title": "Open Sandwiches",
+    "parents": ["restaurants"],
+    "country_whitelist": ["TR", "DK", "NO", "SE"]
+  },
+  {
+    "alias": "oriental",
+    "title": "Oriental",
+    "parents": ["restaurants"],
+    "country_whitelist": ["DE", "PT", "CH", "AT", "FR"]
+  },
+  {
+    "alias": "ottomancuisine",
+    "title": "Ottoman Cuisine",
+    "parents": ["turkish"],
+    "country_whitelist": ["TR"]
+  },
+  {
+    "alias": "oyakodon",
+    "title": "Oyakodon",
+    "parents": ["donburi"],
+    "country_whitelist": ["JP"]
+  },
+  {
+    "alias": "pakistani",
+    "title": "Pakistani",
+    "parents": ["restaurants"]
+  },
+  {
+    "alias": "palatine",
+    "title": "Palatine",
+    "parents": ["german"],
+    "country_whitelist": ["DE"]
+  },
+  {
+    "alias": "panasian",
+    "title": "Pan Asian",
+    "parents": ["restaurants"],
+    "country_blacklist": ["IT"]
+  },
+  {
+    "alias": "panzerotti",
+    "title": "Panzerotti",
+    "parents": ["food"],
+    "country_whitelist": ["IT"]
+  },
+  {
+    "alias": "parma",
+    "title": "Parma",
+    "parents": ["restaurants"],
+    "country_whitelist": ["AU"]
+  },
+  {
+    "alias": "pekinese",
+    "title": "Pekinese",
+    "parents": ["chinese"],
+    "country_whitelist": ["HK", "SG", "IT", "MY", "JP", "TW", "FR"]
+  },
+  {
+    "alias": "persian",
+    "title": "Persian/Iranian",
+    "parents": ["restaurants"]
+  },
+  {
+    "alias": "peruvian",
+    "title": "Peruvian",
+    "parents": ["restaurants"],
+    "country_blacklist": ["TR", "PT", "SG"]
+  },
+  {
+    "alias": "piadina",
+    "title": "Piadina",
+    "parents": ["food"],
+    "country_whitelist": ["IT", "US"]
+  },
+  {
+    "alias": "piemonte",
+    "title": "Piemonte",
+    "parents": ["italian"],
+    "country_whitelist": ["IT", "FR"]
+  },
+  {
+    "alias": "pierogis",
+    "title": "Pierogis",
+    "parents": ["polish"],
+    "country_whitelist": ["PL"]
+  },
+  {
+    "alias": "pita",
+    "title": "Pita",
+    "parents": ["restaurants"],
+    "country_whitelist": ["TR"]
+  },
+  {
+    "alias": "pizza",
+    "title": "Pizza",
+    "parents": ["restaurants"]
+  },
+  {
+    "alias": "poke",
+    "title": "Poke",
+    "parents": ["food"],
+    "country_whitelist": ["CA", "BE", "NL", "SE", "US", "FR"]
+  },
+  {
+    "alias": "polish",
+    "title": "Polish",
+    "parents": ["restaurants"],
+    "country_blacklist": ["SG", "FI"]
+  },
+  {
+    "alias": "polynesian",
+    "title": "Polynesian",
+    "parents": ["restaurants"],
+    "country_whitelist": ["US"]
+  },
+  {
+    "alias": "popuprestaurants",
+    "title": "Pop-Up Restaurants",
+    "parents": ["restaurants"],
+    "country_whitelist": [
+      "GB",
+      "NO",
+      "MY",
+      "TW",
+      "HK",
+      "SG",
+      "NL",
+      "SE",
+      "US",
+      "PH",
+      "AU",
+      "FR",
+      "DE",
+      "CA",
+      "BE",
+      "NZ",
+      "DK",
+      "IE"
+    ]
+  },
+  {
+    "alias": "portuguese",
+    "title": "Portuguese",
+    "parents": ["restaurants"],
+    "country_blacklist": ["FI"]
+  },
+  {
+    "alias": "potatoes",
+    "title": "Potatoes",
+    "parents": ["restaurants"],
+    "country_whitelist": ["AU", "DE", "AT", "CH"]
+  },
+  {
+    "alias": "poutineries",
+    "title": "Poutineries",
+    "parents": ["restaurants"],
+    "country_whitelist": ["CA", "US"]
+  },
+  {
+    "alias": "pretzels",
+    "title": "Pretzels",
+    "parents": ["food"],
+    "country_whitelist": ["DE", "US", "CH", "PT"]
+  },
+  {
+    "alias": "provencal",
+    "title": "Provencal",
+    "parents": ["french"],
+    "country_whitelist": ["FR"]
+  },
+  {
+    "alias": "pubfood",
+    "title": "Pub Food",
+    "parents": ["restaurants"],
+    "country_whitelist": ["AU"]
+  },
+  {
+    "alias": "pubs",
+    "title": "Pubs",
+    "parents": ["bars"]
+  },
+  {
+    "alias": "pueblan",
+    "title": "Pueblan",
+    "parents": ["mexican"],
+    "country_whitelist": ["MX"]
+  },
+  {
+    "alias": "puertorican",
+    "title": "Puerto Rican",
+    "parents": ["caribbean"],
+    "country_whitelist": ["US"]
+  },
+  {
+    "alias": "pulquerias",
+    "title": "Pulquerias",
+    "parents": ["bars"],
+    "country_whitelist": ["MX"]
+  },
+  {
+    "alias": "ramen",
+    "title": "Ramen",
+    "parents": ["japanese"]
+  },
+  {
+    "alias": "restaurants",
+    "title": "Restaurants",
+    "parents": []
+  },
+  {
+    "alias": "rhinelandian",
+    "title": "Rhinelandian",
+    "parents": ["german"],
+    "country_whitelist": ["DE"]
+  },
+  {
+    "alias": "ribatejo",
+    "title": "Ribatejo",
+    "parents": ["portuguese"],
+    "country_whitelist": ["PT"]
+  },
+  {
+    "alias": "riceshop",
+    "title": "Rice",
+    "parents": ["restaurants"],
+    "country_whitelist": ["TR", "JP"]
+  },
+  {
+    "alias": "robatayaki",
+    "title": "Robatayaki",
+    "parents": ["japanese"],
+    "country_whitelist": ["HK", "TW", "JP"]
+  },
+  {
+    "alias": "rodizios",
+    "title": "Rodizios",
+    "parents": ["brazilian"],
+    "country_whitelist": ["BR", "AR", "PT"]
+  },
+  {
+    "alias": "roman",
+    "title": "Roman",
+    "parents": ["italian"],
+    "country_whitelist": ["IT", "FR", "JP"]
+  },
+  {
+    "alias": "romanian",
+    "title": "Romanian",
+    "parents": ["restaurants"],
+    "country_whitelist": ["CZ", "PL", "AT", "FR", "DE", "BE", "CH", "ES"]
+  },
+  {
+    "alias": "rotisserie_chicken",
+    "title": "Rotisserie Chicken",
+    "parents": ["restaurants"],
+    "country_whitelist": [
+      "PL",
+      "MX",
+      "IT",
+      "CL",
+      "NL",
+      "AU",
+      "AR",
+      "FR",
+      "PT",
+      "BE",
+      "BR",
+      "ES",
+      "NZ"
+    ]
+  },
+  {
+    "alias": "russian",
+    "title": "Russian",
+    "parents": ["restaurants"]
+  },
+  {
+    "alias": "sakebars",
+    "title": "Sake Bars",
+    "parents": ["bars"],
+    "country_whitelist": ["JP"]
+  },
+  {
+    "alias": "salad",
+    "title": "Salad",
+    "parents": ["restaurants"]
+  },
+  {
+    "alias": "salumerie",
+    "title": "Salumerie",
+    "parents": ["food"],
+    "country_whitelist": ["PT", "MX", "IT", "CL", "ES", "AR"]
+  },
+  {
+    "alias": "salvadoran",
+    "title": "Salvadoran",
+    "parents": ["latin"],
+    "country_whitelist": ["CA", "US"]
+  },
+  {
+    "alias": "sandwiches",
+    "title": "Sandwiches",
+    "parents": ["restaurants"]
+  },
+  {
+    "alias": "sardinian",
+    "title": "Sardinian",
+    "parents": ["italian"],
+    "country_whitelist": ["US", "IT", "FR"]
+  },
+  {
+    "alias": "scandinavian",
+    "title": "Scandinavian",
+    "parents": ["restaurants"],
+    "country_blacklist": ["PT"]
+  },
+  {
+    "alias": "schnitzel",
+    "title": "Schnitzel",
+    "parents": ["restaurants"],
+    "country_whitelist": ["DE", "AT", "CH", "PL"]
+  },
+  {
+    "alias": "scottish",
+    "title": "Scottish",
+    "parents": ["restaurants"],
+    "country_whitelist": ["DE", "GB", "CA", "CH", "US", "AT", "IE"]
+  },
+  {
+    "alias": "seafood",
+    "title": "Seafood",
+    "parents": ["restaurants"]
+  },
+  {
+    "alias": "senegalese",
+    "title": "Senegalese",
+    "parents": ["african"],
+    "country_whitelist": ["CA", "BE", "IT", "US", "FR"]
+  },
+  {
+    "alias": "serbocroatian",
+    "title": "Serbo Croatian",
+    "parents": ["restaurants"],
+    "country_whitelist": [
+      "CZ",
+      "PL",
+      "IT",
+      "CL",
+      "SE",
+      "AR",
+      "AT",
+      "FR",
+      "DE",
+      "BE",
+      "CH"
+    ]
+  },
+  {
+    "alias": "shanghainese",
+    "title": "Shanghainese",
+    "parents": ["chinese"],
+    "country_whitelist": [
+      "SG",
+      "IT",
+      "MY",
+      "SE",
+      "US",
+      "AU",
+      "TW",
+      "FR",
+      "HK",
+      "BE",
+      "JP"
+    ]
+  },
+  {
+    "alias": "shavedice",
+    "title": "Shaved Ice",
+    "parents": ["food"],
+    "country_whitelist": ["CZ", "SG", "MX", "IT", "CL", "US", "AR", "TW", "JP"]
+  },
+  {
+    "alias": "shavedsnow",
+    "title": "Shaved Snow",
+    "parents": ["food"],
+    "country_whitelist": ["HK", "CA", "SG", "MY", "US", "TW"]
+  },
+  {
+    "alias": "sicilian",
+    "title": "Sicilian",
+    "parents": ["italian"],
+    "country_whitelist": ["CZ", "PL", "IT", "US", "FR"]
+  },
+  {
+    "alias": "signature_cuisine",
+    "title": "Signature Cuisine",
+    "parents": ["restaurants"],
+    "country_whitelist": ["NO", "MX", "CL", "SE", "AR", "PT", "DK", "ES"]
+  },
+  {
+    "alias": "singaporean",
+    "title": "Singaporean",
+    "parents": ["restaurants"],
+    "country_blacklist": ["CZ", "PT", "DK", "ES", "FI", "TR"]
+  },
+  {
+    "alias": "slovakian",
+    "title": "Slovakian",
+    "parents": ["restaurants"],
+    "country_whitelist": [
+      "GB",
+      "CZ",
+      "PL",
+      "IT",
+      "US",
+      "AU",
+      "FR",
+      "CA",
+      "BE",
+      "IE"
+    ]
+  },
+  {
+    "alias": "smokehouse",
+    "title": "Smokehouse",
+    "parents": ["food"],
+    "country_blacklist": ["PL", "MX", "IT", "CL", "TR", "AR", "FR"]
+  },
+  {
+    "alias": "soba",
+    "title": "Soba",
+    "parents": ["japanese"],
+    "country_whitelist": ["TW", "JP"]
+  },
+  {
+    "alias": "soulfood",
+    "title": "Soul Food",
+    "parents": ["restaurants"],
+    "country_whitelist": ["GB", "NO", "PL", "NL", "SE", "US", "CA", "ES", "IE"]
+  },
+  {
+    "alias": "soup",
+    "title": "Soup",
+    "parents": ["restaurants"]
+  },
+  {
+    "alias": "southafrican",
+    "title": "South African",
+    "parents": ["african"],
+    "country_whitelist": ["CA", "BE", "IT", "US", "AU", "FR"]
+  },
+  {
+    "alias": "southern",
+    "title": "Southern",
+    "parents": ["restaurants"],
+    "country_whitelist": ["GB", "PL", "IE", "NL", "SE", "US", "CA", "TR", "NZ"]
+  },
+  {
+    "alias": "spanish",
+    "title": "Spanish",
+    "parents": ["restaurants"]
+  },
+  {
+    "alias": "speakeasies",
+    "title": "Speakeasies",
+    "parents": ["bars"],
+    "country_blacklist": ["NO", "PL", "IT", "DK", "TR", "FR"]
+  },
+  {
+    "alias": "srilankan",
+    "title": "Sri Lankan",
+    "parents": ["restaurants"],
+    "country_blacklist": ["CZ"]
+  },
+  {
+    "alias": "steak",
+    "title": "Steakhouses",
+    "parents": ["restaurants"]
+  },
+  {
+    "alias": "sukiyaki",
+    "title": "Sukiyaki",
+    "parents": ["japanese"],
+    "country_whitelist": ["TW", "JP"]
+  },
+  {
+    "alias": "supperclubs",
+    "title": "Supper Clubs",
+    "parents": ["restaurants"],
+    "country_whitelist": ["GB", "CA", "ES", "US"]
+  },
+  {
+    "alias": "sushi",
+    "title": "Sushi Bars",
+    "parents": ["restaurants"]
+  },
+  {
+    "alias": "swabian",
+    "title": "Swabian",
+    "parents": ["restaurants"],
+    "country_whitelist": ["DE", "AT", "CH"]
+  },
+  {
+    "alias": "swedish",
+    "title": "Swedish",
+    "parents": ["restaurants"],
+    "country_whitelist": ["SE"]
+  },
+  {
+    "alias": "swissfood",
+    "title": "Swiss Food",
+    "parents": ["restaurants"],
+    "country_whitelist": ["DE", "CZ", "MX", "CL", "CH", "ES", "AR"]
+  },
+  {
+    "alias": "syrian",
+    "title": "Syrian",
+    "parents": ["restaurants"]
+  },
+  {
+    "alias": "szechuan",
+    "title": "Szechuan",
+    "parents": ["chinese"],
+    "country_whitelist": [
+      "GB",
+      "IE",
+      "SG",
+      "MY",
+      "US",
+      "AU",
+      "TW",
+      "FR",
+      "HK",
+      "JP",
+      "NZ"
+    ]
+  },
+  {
+    "alias": "tabac",
+    "title": "Tabac",
+    "parents": ["bars"],
+    "country_whitelist": ["CZ", "BE", "IT", "ES", "FR"]
+  },
+  {
+    "alias": "tabernas",
+    "title": "Tabernas",
+    "parents": ["restaurants"],
+    "country_whitelist": ["TR", "ES", "PT"]
+  },
+  {
+    "alias": "tacos",
+    "title": "Tacos",
+    "parents": ["mexican"],
+    "country_whitelist": ["MX", "US"]
+  },
+  {
+    "alias": "taiwanese",
+    "title": "Taiwanese",
+    "parents": ["restaurants"],
+    "country_blacklist": ["CZ", "PT", "ES", "FI", "TR"]
+  },
+  {
+    "alias": "taiyaki",
+    "title": "Taiyaki",
+    "parents": ["jpsweets"],
+    "country_whitelist": ["JP"]
+  },
+  {
+    "alias": "takoyaki",
+    "title": "Takoyaki",
+    "parents": ["japanese"],
+    "country_whitelist": ["TW", "JP"]
+  },
+  {
+    "alias": "tamales",
+    "title": "Tamales",
+    "parents": ["mexican"],
+    "country_whitelist": ["MX"]
+  },
+  {
+    "alias": "tapas",
+    "title": "Tapas Bars",
+    "parents": ["restaurants"],
+    "country_blacklist": ["AU", "SG", "FI"]
+  },
+  {
+    "alias": "tavolacalda",
+    "title": "Tavola Calda",
+    "parents": ["restaurants"],
+    "country_whitelist": ["IT"]
+  },
+  {
+    "alias": "tempura",
+    "title": "Tempura",
+    "parents": ["japanese"],
+    "country_whitelist": ["SG", "TW", "JP"]
+  },
+  {
+    "alias": "teochew",
+    "title": "Teochew",
+    "parents": ["chinese"],
+    "country_whitelist": ["TW", "HK", "MY", "SG"]
+  },
+  {
+    "alias": "teppanyaki",
+    "title": "Teppanyaki",
+    "parents": ["japanese"],
+    "country_whitelist": ["SG", "MX", "US", "AU", "TW", "HK", "JP", "NZ"]
+  },
+  {
+    "alias": "tex-mex",
+    "title": "Tex-Mex",
+    "parents": ["restaurants"],
+    "country_blacklist": ["AU", "DK", "ES", "PT"]
+  },
+  {
+    "alias": "thai",
+    "title": "Thai",
+    "parents": ["restaurants"]
+  },
+  {
+    "alias": "themedcafes",
+    "title": "Themed Cafes",
+    "parents": ["cafes"],
+    "country_whitelist": [
+      "PL",
+      "SG",
+      "NL",
+      "MY",
+      "US",
+      "FI",
+      "PH",
+      "TW",
+      "FR",
+      "DE",
+      "HK",
+      "BE",
+      "JP"
+    ]
+  },
+  {
+    "alias": "tikibars",
+    "title": "Tiki Bars",
+    "parents": ["bars"],
+    "country_blacklist": ["DE", "PL", "CH", "JP", "TR", "AT", "FR"]
+  },
+  {
+    "alias": "tonkatsu",
+    "title": "Tonkatsu",
+    "parents": ["japanese"],
+    "country_whitelist": ["SG", "TW", "JP"]
+  },
+  {
+    "alias": "torshi",
+    "title": "Torshi",
+    "parents": ["food"],
+    "country_whitelist": ["TR"]
+  },
+  {
+    "alias": "tortillas",
+    "title": "Tortillas",
+    "parents": ["food"],
+    "country_whitelist": ["MX"]
+  },
+  {
+    "alias": "tradamerican",
+    "title": "American (Traditional)",
+    "parents": ["restaurants"]
+  },
+  {
+    "alias": "traditional_swedish",
+    "title": "Traditional Swedish",
+    "parents": ["restaurants"],
+    "country_whitelist": ["SE", "FI"]
+  },
+  {
+    "alias": "trattorie",
+    "title": "Trattorie",
+    "parents": ["restaurants"],
+    "country_whitelist": ["PL", "IT", "CL", "CH", "AR", "FR"]
+  },
+  {
+    "alias": "turkish",
+    "title": "Turkish",
+    "parents": ["restaurants"]
+  },
+  {
+    "alias": "turkishravioli",
+    "title": "Turkish Ravioli",
+    "parents": ["turkish"],
+    "country_whitelist": ["TR"]
+  },
+  {
+    "alias": "tuscan",
+    "title": "Tuscan",
+    "parents": ["italian"],
+    "country_whitelist": ["US", "IT", "FR"]
+  },
+  {
+    "alias": "udon",
+    "title": "Udon",
+    "parents": ["japanese"],
+    "country_whitelist": ["HK", "NO", "FI", "DK", "SE", "JP", "TW"]
+  },
+  {
+    "alias": "ukrainian",
+    "title": "Ukrainian",
+    "parents": ["restaurants"],
+    "country_blacklist": ["TR", "DK", "ES"]
+  },
+  {
+    "alias": "unagi",
+    "title": "Unagi",
+    "parents": ["japanese"],
+    "country_whitelist": ["TW", "JP"]
+  },
+  {
+    "alias": "uzbek",
+    "title": "Uzbek",
+    "parents": ["restaurants"],
+    "country_whitelist": ["CZ", "US"]
+  },
+  {
+    "alias": "vegan",
+    "title": "Vegan",
+    "parents": ["restaurants"]
+  },
+  {
+    "alias": "vegetarian",
+    "title": "Vegetarian",
+    "parents": ["restaurants"]
+  },
+  {
+    "alias": "venetian",
+    "title": "Venetian",
+    "parents": ["italian"],
+    "country_whitelist": ["IT", "FR"]
+  },
+  {
+    "alias": "venezuelan",
+    "title": "Venezuelan",
+    "parents": ["latin"],
+    "country_whitelist": ["CA", "PT", "CL", "ES", "US", "AR", "FR"]
+  },
+  {
+    "alias": "venison",
+    "title": "Venison",
+    "parents": ["restaurants"],
+    "country_whitelist": [
+      "GB",
+      "CZ",
+      "NO",
+      "PL",
+      "IE",
+      "SG",
+      "IT",
+      "AU",
+      "CA",
+      "DK",
+      "NZ"
+    ]
+  },
+  {
+    "alias": "vietnamese",
+    "title": "Vietnamese",
+    "parents": ["restaurants"]
+  },
+  {
+    "alias": "waffles",
+    "title": "Waffles",
+    "parents": ["restaurants"]
+  },
+  {
+    "alias": "westernjapanese",
+    "title": "Western Style Japanese Food",
+    "parents": ["japanese"],
+    "country_whitelist": ["SG", "TW", "JP"]
+  },
+  {
+    "alias": "whiskeybars",
+    "title": "Whiskey Bars",
+    "parents": ["bars"],
+    "country_blacklist": ["IT"]
+  },
+  {
+    "alias": "wine_bars",
+    "title": "Wine Bars",
+    "parents": ["bars"]
+  },
+  {
+    "alias": "wok",
+    "title": "Wok",
+    "parents": ["restaurants"],
+    "country_blacklist": [
+      "GB",
+      "PL",
+      "IE",
+      "SG",
+      "IT",
+      "US",
+      "AU",
+      "AR",
+      "TW",
+      "HK",
+      "CA",
+      "BR",
+      "JP",
+      "TR",
+      "NZ"
+    ]
+  },
+  {
+    "alias": "wraps",
+    "title": "Wraps",
+    "parents": ["restaurants"],
+    "country_whitelist": ["CZ", "NO", "PT", "DK", "SE", "US", "TR"]
+  },
+  {
+    "alias": "yakiniku",
+    "title": "Yakiniku",
+    "parents": ["japanese"],
+    "country_whitelist": ["SG", "TW", "JP"]
+  },
+  {
+    "alias": "yakitori",
+    "title": "Yakitori",
+    "parents": ["japanese"],
+    "country_whitelist": ["SG", "TW", "JP"]
+  },
+  {
+    "alias": "yucatan",
+    "title": "Yucatan",
+    "parents": ["mexican"],
+    "country_whitelist": ["MX"]
+  },
+  {
+    "alias": "yugoslav",
+    "title": "Yugoslav",
+    "parents": ["restaurants"],
+    "country_whitelist": ["PT", "BE", "IT", "SE", "AU", "FR"]
+  },
+  {
+    "alias": "zapiekanka",
+    "title": "Zapiekanka",
+    "parents": ["food"],
+    "country_whitelist": ["PL"]
+  }
 ]

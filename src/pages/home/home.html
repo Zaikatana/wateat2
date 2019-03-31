@@ -1,28 +1,36 @@
 <ion-content padding>
-	<ion-title>WatEat2.0 v0.1</ion-title>
-	<form [formGroup]="searchForm">
-		<ion-list>
-			<ion-item> -->
-				<ion-label floating>Cuisine</ion-label>
-				<ion-input formControlName="cuisine" (input)="lookupCuisine($event)"></ion-input>
-			</ion-item>
-			<ion-list *ngIf="displayCuisines">
-				<div class="cuisineslist">
-					<ion-item class="cuisine" *ngFor="let c of cuisines" (mousedown)="setCuisine(c.title)">
-						{{ c.title }}
-					</ion-item>
-				</div>
-			</ion-list>
-			<ion-item>
-				<ion-label floating>Radius (m)</ion-label>
-				<ion-input type="number" formControlName="radius"></ion-input>
-			</ion-item>
-		</ion-list>
-	</form>
-	<button ion-button float-right (click)="searchRestaurants()">Get List</button>
-	<ion-list *ngIf="isSearch">
-		<ion-item *ngFor="let r of results">
-			{{ r.title }}
-		</ion-item>
-	</ion-list>
+  <ion-title>WatEat2.0 v0.1</ion-title>
+  <form [formGroup]="searchForm">
+    <ion-list>
+      <ion-item>
+        -->
+        <ion-label floating>Cuisine</ion-label>
+        <ion-input
+          formControlName="cuisine"
+          (input)="lookupCuisine($event)"
+        ></ion-input>
+      </ion-item>
+      <ion-list *ngIf="displayCuisines">
+        <div class="cuisineslist">
+          <ion-item
+            class="cuisine"
+            *ngFor="let c of cuisines"
+            (mousedown)="setCuisine(c.title)"
+          >
+            {{ c.title }}
+          </ion-item>
+        </div>
+      </ion-list>
+      <ion-item>
+        <ion-label floating>Radius (m)</ion-label>
+        <ion-input type="number" formControlName="radius"></ion-input>
+      </ion-item>
+    </ion-list>
+  </form>
+  <button ion-button float-right (click)="searchRestaurants()">Get List</button>
+  <ion-list *ngIf="isSearch">
+    <ion-item *ngFor="let r of results">
+      {{ r.title }}
+    </ion-item>
+  </ion-list>
 </ion-content>

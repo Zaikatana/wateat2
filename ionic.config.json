@@ -5,8 +5,10 @@
   "integrations": {
     "cordova": {}
   },
-  "proxies": [{
-    "path": "/home",
-    "proxyUrl": "https://api.yelp.com/v3/businesses/search"
-  }]
+  "proxies": [
+    {
+      "path": "/home",
+      "proxyUrl": "https://api.yelp.com/v3/businesses/search"
+    }
+  ]
 }
