@@ -30,7 +30,7 @@
   <button ion-button float-right (click)="searchRestaurants()">Get List</button>
   <ion-list *ngIf="isSearch">
     <ion-item *ngFor="let r of results">
-      {{ r.title }}
+      <a href={{r.url}}>{{ r.name }}</a>
     </ion-item>
   </ion-list>
 </ion-content>

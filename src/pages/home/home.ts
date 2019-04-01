@@ -17,7 +17,7 @@ export class HomePage {
   cuisines: string[];
   displayCuisines: boolean = false;
   radius: number;
-  results: any;
+  results: any[];
   latitude: number;
   longitude: number;
   isSearch: boolean = false;
@@ -56,7 +56,7 @@ export class HomePage {
     this.ysp
       .getResults(this.latitude, this.longitude, radius, cuisine)
       .subscribe(data => {
-        console.log(data);
+        this.results = data.businesses.map(business => business);
       });
   }
 
