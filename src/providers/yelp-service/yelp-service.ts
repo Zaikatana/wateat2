@@ -31,16 +31,26 @@ export class YelpServiceProvider {
   };
 
   private yelpBaseURL =
-    "https://api.yelp.com/v3/businesses/search?latitude=-33.8824300&longitude=150.8866750&term=restaurants&radius=1000";
+    "https://api.yelp.com/v3/businesses/search?latitude=LAT&longitude=LON&term=restaurants&radius=RAD&category=CUS";
 
   private handleError(err: HttpErrorResponse) {
     console.log(err.message);
     return Observable.throw(err.message);
   }
 
-  getResults() {
+  getResults(
+    latitude: number,
+    longitude: number,
+    radius: number,
+    category: string
+  ) {
+    let reqURL = this.yelpBaseURL;
+    reqURL.replace("LAT", latitude.toString());
+    reqURL.replace("LON", longitude.toString());
+    reqURL.replace("RAD", radius.toString());
+    reqURL.replace("CUS", category);
     return this.http
-      .get(this.yelpBaseURL, this.httpOptions)
+      .get(reqURL, this.httpOptions)
       .do(result => {
         console.log(JSON.stringify(result));
       })

@@ -29,7 +29,7 @@ export class CuisineServiceProvider {
     return this.http
       .get<ICuisine[]>(this.cuisineJSON)
       .map(result => {
-        return (result as any).filter(item =>
+        return result.filter(item =>
           item.title.toLowerCase().startsWith(keyword.toLowerCase())
         );
       })

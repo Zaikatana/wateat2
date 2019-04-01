@@ -2,8 +2,7 @@ import { Component } from "@angular/core";
 import { NavController } from "ionic-angular";
 import { FormBuilder, FormGroup } from "@angular/forms";
 
-import { ICuisine } from "../../types/types";
-import { CuisineServiceProvider } from "../../providers/cusine-service/cuisine-service";
+import { CuisineServiceProvider } from "../../providers/cuisine-service/cuisine-service";
 import { YelpServiceProvider } from "../../providers/yelp-service/yelp-service";
 
 import { Geolocation } from "@ionic-native/geolocation";
@@ -15,7 +14,7 @@ import { Geolocation } from "@ionic-native/geolocation";
 export class HomePage {
   searchForm: FormGroup;
   cuisine: string;
-  cuisines: any[];
+  cuisines: string[];
   displayCuisines: boolean = false;
   radius: number;
   results: any;
@@ -54,9 +53,11 @@ export class HomePage {
     console.log(radius);
     console.log(cuisine);
     this.isSearch = true;
-    this.ysp.getResults().subscribe(data => {
-      console.log(data);
-    });
+    this.ysp
+      .getResults(this.latitude, this.longitude, radius, cuisine)
+      .subscribe(data => {
+        console.log(data);
+      });
   }
 
   lookupCuisine(event: any) {
