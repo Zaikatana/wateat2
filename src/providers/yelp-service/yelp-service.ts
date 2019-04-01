@@ -30,12 +30,25 @@ export class YelpServiceProvider {
     })
   };
 
-  private yelpBaseURL =
-    "https://api.yelp.com/v3/businesses/search?latitude=LAT&longitude=LON&term=restaurants&radius=RAD&category=CUS";
+  private yelpBaseURL: string =
+    "https://api.yelp.com/v3/businesses/search?latitude=LAT&longitude=LON&term=restaurants&radius=RAD&categories=CUS";
 
   private handleError(err: HttpErrorResponse) {
     console.log(err.message);
     return Observable.throw(err.message);
+  }
+
+  private replaceURL(
+    latitude: number,
+    longitude: number,
+    radius: number,
+    category: string
+  ): string {
+    return this.yelpBaseURL
+      .replace(/LAT/g, latitude.toString())
+      .replace(/LON/g, longitude.toString())
+      .replace(/RAD/g, radius.toString())
+      .replace(/CUS/g, category.toLowerCase());
   }
 
   getResults(
@@ -44,16 +57,12 @@ export class YelpServiceProvider {
     radius: number,
     category: string
   ) {
-    let reqURL = this.yelpBaseURL;
-    reqURL.replace("LAT", latitude.toString());
-    reqURL.replace("LON", longitude.toString());
-    reqURL.replace("RAD", radius.toString());
-    reqURL.replace("CUS", category);
+    // TODO: GET RID OF THIS NEED FOR PROXY URL!!!
+    const proxyurl = "https://cors-anywhere.herokuapp.com/";
+    const reqURL = this.replaceURL(latitude, longitude, radius, category);
+    console.log(reqURL);
     return this.http
-      .get(reqURL, this.httpOptions)
-      .do(result => {
-        console.log(JSON.stringify(result));
-      })
+      .get(proxyurl + reqURL, this.httpOptions)
       .catch(this.handleError);
   }
 }
